@@ -1,0 +1,158 @@
+{
+  "title": "Каталог Дроп IT",
+  "subtitle": "Инструменты, нейросети и скиллы, о которых рассказываем в канале. Всё проверено и разложено по полочкам.",
+  "channel": "https://t.me/aidrop_hq",
+  "categories": [
+    {
+      "key": "ai-text",
+      "name": "🧠 ИИ для текста и кода"
+    },
+    {
+      "key": "ai-image",
+      "name": "🎨 ИИ для картинок и видео"
+    },
+    {
+      "key": "agents",
+      "name": "👥 AI-агенты и автоматизация"
+    },
+    {
+      "key": "scraping",
+      "name": "🕷 Парсинг и сбор данных"
+    },
+    {
+      "key": "dev-tools",
+      "name": "🛠 Инструменты разработчика"
+    },
+    {
+      "key": "skills",
+      "name": "✨ Навыки и промпты"
+    },
+    {
+      "key": "other",
+      "name": "📦 Разное полезное"
+    }
+  ],
+  "tools": [
+    {
+      "name": "crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "category": "scraping",
+      "desc_ru": "Парсер сайтов под ИИ: вытаскивает чистый текст для нейросетей и RAG. Бесплатный, наш основной.",
+      "audience": "me",
+      "stars": 67734,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "category": "scraping",
+      "desc_ru": "Превращает любой сайт в данные для ИИ через API. Берём, когда нужен сервис, а не локальный скрипт.",
+      "audience": "me",
+      "stars": 128372,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "Scrapegraph-ai",
+      "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+      "category": "scraping",
+      "desc_ru": "Парсинг промптом: пишешь словами что извлечь — достаёт. Для точечных разовых задач.",
+      "audience": "me",
+      "stars": 26698,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "crawlee",
+      "url": "https://github.com/apify/crawlee",
+      "category": "scraping",
+      "desc_ru": "Парсинг с обходом антибота и ротацией прокси. Когда обычный краулер блокируют.",
+      "audience": "me",
+      "stars": 23657,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "scrapy",
+      "url": "https://github.com/scrapy/scrapy",
+      "category": "scraping",
+      "desc_ru": "Классический мощный фреймворк парсинга. Для больших объёмов на статичных сайтах.",
+      "audience": "public",
+      "stars": 62095,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "claude-flow",
+      "url": "https://github.com/ruvnet/ruflo",
+      "category": "agents",
+      "desc_ru": "Рой ИИ-агентов под Claude: распараллеливает большие задачи между несколькими агентами.",
+      "audience": "me",
+      "stars": 57757,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "claude-squad",
+      "url": "https://github.com/smtg-ai/claude-squad",
+      "category": "agents",
+      "desc_ru": "Несколько Claude-агентов работают параллельно в отдельных ветках. Для крупных задач сразу.",
+      "audience": "me",
+      "stars": 7708,
+      "lang": "Go",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama",
+      "category": "ai-text",
+      "desc_ru": "Запуск нейросетей (Llama, Qwen и др.) локально на своём компе. Бесплатно, без интернета.",
+      "audience": "public",
+      "stars": 173119,
+      "lang": "Go",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "category": "ai-image",
+      "desc_ru": "Генерация картинок Stable Diffusion по узлам-блокам. Бесплатно, запускается локально.",
+      "audience": "public",
+      "stars": 115628,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "rembg",
+      "url": "https://github.com/danielgatis/rembg",
+      "category": "ai-image",
+      "desc_ru": "Удаляет фон с картинки одной командой. Используем для чистых фото товаров.",
+      "audience": "me",
+      "stars": 23178,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "Awesome ChatGPT Prompts",
+      "url": "https://github.com/f/prompts.chat",
+      "category": "skills",
+      "desc_ru": "Огромный сборник готовых промптов для ChatGPT и других нейросетей.",
+      "audience": "public",
+      "stars": 163280,
+      "lang": "HTML",
+      "source": "github",
+      "added": "2026-06-04"
+    }
+  ]
+}

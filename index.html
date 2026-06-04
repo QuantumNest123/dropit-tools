@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Каталог Дроп IT — инструменты, нейросети и скиллы</title>
+<meta name="description" content="Проверенные AI-инструменты, нейросети и скиллы из канала Дроп IT. Всё разложено по полочкам.">
+<meta property="og:title" content="Каталог Дроп IT">
+<meta property="og:description" content="Проверенные инструменты, нейросети и скиллы из канала Дроп IT.">
+<meta property="og:image" content="assets/social-preview.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/dropit-logo.png">
+<style>
+  :root{
+    --bg:#0a0f0c; --bg2:#0e1512; --card:#111a15; --card-h:#16221c;
+    --line:#1d2c24; --green:#34d178; --green-d:#1f9d57; --green-soft:rgba(52,209,120,.12);
+    --txt:#e9f1ec; --muted:#8ba093; --muted2:#5f7268;
+    --shadow:0 1px 0 rgba(255,255,255,.03), 0 12px 30px -12px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(52,209,120,.08), transparent 60%),
+      var(--bg);
+    color:var(--txt);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+  header.top{padding:38px 0 22px;border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg,rgba(52,209,120,.05),transparent)}
+  .brand{display:flex;align-items:center;gap:14px}
+  .brand img{width:54px;height:54px;border-radius:14px;box-shadow:var(--shadow)}
+  .brand h1{margin:0;font-size:26px;letter-spacing:-.5px;font-weight:800}
+  .brand .sub{color:var(--muted);font-size:14.5px;margin-top:3px;max-width:640px}
+  .chanbtn{display:inline-flex;align-items:center;gap:7px;margin-top:14px;
+    background:var(--green);color:#04130a;font-weight:700;font-size:14px;
+    padding:9px 16px;border-radius:999px;transition:.15s transform,.15s filter}
+  .chanbtn:hover{transform:translateY(-1px);filter:brightness(1.07)}
+
+  .controls{position:sticky;top:0;z-index:5;background:rgba(10,15,12,.86);
+    backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:13px 0}
+  .controls .wrap{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+  .search{flex:1;min-width:200px;position:relative}
+  .search input{width:100%;background:var(--card);border:1px solid var(--line);
+    color:var(--txt);padding:11px 14px 11px 40px;border-radius:11px;font-size:15px;outline:none;transition:.15s border}
+  .search input:focus{border-color:var(--green-d)}
+  .search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.5}
+  .count{color:var(--muted2);font-size:13px;white-space:nowrap}
+
+  .cats{display:flex;gap:8px;flex-wrap:wrap;padding:18px 0 4px}
+  .cats a{font-size:13px;color:var(--muted);background:var(--card);border:1px solid var(--line);
+    padding:6px 12px;border-radius:999px;transition:.15s}
+  .cats a:hover{color:var(--txt);border-color:var(--green-d)}
+
+  section.cat{padding:26px 0 6px}
+  section.cat h2{font-size:18px;margin:0 0 14px;font-weight:750;display:flex;align-items:center;gap:8px}
+  section.cat h2 .n{font-size:13px;color:var(--muted2);font-weight:600}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px}
+  .tool{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:16px 17px;
+    display:flex;flex-direction:column;gap:9px;transition:.16s transform,.16s border-color,.16s background;
+    scroll-margin-top:90px}
+  .tool:hover{transform:translateY(-2px);border-color:var(--green-d);background:var(--card-h)}
+  .tool.flash{border-color:var(--green);box-shadow:0 0 0 2px var(--green-soft),0 0 30px -6px rgba(52,209,120,.5)}
+  .tool .h{display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .tool .name{font-weight:730;font-size:16.5px;letter-spacing:-.2px}
+  .tool .me{font-size:10.5px;font-weight:700;color:var(--green);border:1px solid var(--green-d);
+    border-radius:999px;padding:2px 8px;white-space:nowrap}
+  .tool .desc{color:var(--muted);font-size:14px;flex:1}
+  .tool .meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:12px;color:var(--muted2);margin-top:1px}
+  .tool .meta .tag{background:var(--bg2);border:1px solid var(--line);border-radius:7px;padding:2px 7px}
+  .tool .go{margin-top:6px;display:inline-flex;align-items:center;gap:6px;align-self:flex-start;
+    color:var(--green);font-weight:700;font-size:13.5px}
+  .tool .go:hover{text-decoration:underline}
+  .empty{color:var(--muted2);padding:40px 0;text-align:center}
+
+  footer{border-top:1px solid var(--line);margin-top:40px;padding:30px 0 50px;color:var(--muted2);font-size:13px}
+  footer a{color:var(--green)}
+  @media(max-width:560px){
+    .brand h1{font-size:22px}.grid{grid-template-columns:1fr}
+    header.top{padding:26px 0 18px}
+  }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">
+    <img src="assets/dropit-logo.png" alt="Дроп IT">
+    <div>
+      <h1 id="title">Каталог Дроп IT</h1>
+      <div class="sub" id="subtitle"></div>
+    </div>
+  </div>
+  <a class="chanbtn" id="chan" href="https://t.me/aidrop_hq" target="_blank" rel="noopener">
+    Канал Дроп IT →
+  </a>
+</div></header>
+
+<div class="controls"><div class="wrap">
+  <div class="search">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8ba093" stroke-width="2">
+      <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input id="q" type="search" placeholder="Поиск: парсинг, нейросеть, агент…" autocomplete="off">
+  </div>
+  <span class="count" id="count"></span>
+</div></div>
+
+<div class="wrap">
+  <nav class="cats" id="cats"></nav>
+  <main id="list"></main>
+  <div class="empty" id="empty" style="display:none">Ничего не нашлось — попробуй другое слово.</div>
+</div>
+
+<footer><div class="wrap">
+  Собираем сюда инструменты, нейросети и скиллы, о которых рассказываем в
+  <a href="https://t.me/aidrop_hq" target="_blank" rel="noopener">@aidrop_hq</a>.
+  Всё проверено руками. Нашёл крутое — пиши в канал.
+</div></footer>
+
+<script>
+const esc = s => (s||"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function slugify(name){
+  return (name||"").trim().toLowerCase()
+    .replace(/[\s/]+/g,'-').replace(/[^a-z0-9а-яё-]/g,'')
+    .replace(/-+/g,'-').replace(/^-|-$/g,'');
+}
+let DATA={categories:[],tools:[]};
+
+function card(t){
+  const slug = t.slug || slugify(t.name);
+  const stars = t.stars ? `<span class="tag">★ ${Number(t.stars).toLocaleString('ru')}</span>` : '';
+  const lang = t.lang ? `<span class="tag">${esc(t.lang)}</span>` : '';
+  const me = t.audience==='me' ? `<span class="me">наш инструмент</span>` : '';
+  return `<a class="tool" id="${slug}" href="${esc(t.url)}" target="_blank" rel="noopener" data-s="${esc((t.name+' '+(t.desc_ru||'')+' '+(t.lang||'')).toLowerCase())}">
+    <div class="h"><span class="name">${esc(t.name)}</span>${me}</div>
+    <div class="desc">${esc(t.desc_ru||'')}</div>
+    <div class="meta">${lang}${stars}</div>
+    <span class="go">Открыть источник →</span>
+  </a>`;
+}
+function render(filter=""){
+  const f = filter.trim().toLowerCase();
+  const byCat = {};
+  DATA.tools.forEach(t=>{ (byCat[t.category]=byCat[t.category]||[]).push(t); });
+  let html="", shown=0;
+  DATA.categories.forEach(c=>{
+    let tools = (byCat[c.key]||[]);
+    if(f) tools = tools.filter(t => (t.name+' '+(t.desc_ru||'')+' '+(t.lang||'')).toLowerCase().includes(f));
+    if(!tools.length) return;
+    shown += tools.length;
+    html += `<section class="cat" id="cat-${c.key}"><h2>${esc(c.name)} <span class="n">${tools.length}</span></h2>
+      <div class="grid">${tools.map(card).join("")}</div></section>`;
+  });
+  document.getElementById('list').innerHTML = html;
+  document.getElementById('empty').style.display = shown? 'none':'block';
+  document.getElementById('count').textContent = `${shown} ${plural(shown,'инструмент','инструмента','инструментов')}`;
+}
+function plural(n,a,b,c){const m=n%100,d=n%10;return m>=11&&m<=14?c:d===1?a:d>=2&&d<=4?b:c;}
+function buildCats(){
+  document.getElementById('cats').innerHTML = DATA.categories
+    .map(c=>`<a href="#cat-${c.key}">${esc(c.name)}</a>`).join("");
+}
+function flashHash(){
+  const h = decodeURIComponent(location.hash.replace('#',''));
+  if(!h) return;
+  const el = document.getElementById(h);
+  if(el){ el.scrollIntoView({block:'center'}); el.classList.add('flash');
+    setTimeout(()=>el.classList.remove('flash'),2600); }
+}
+fetch('catalog.json?v='+Date.now()).then(r=>r.json()).then(d=>{
+  DATA=d;
+  document.getElementById('title').textContent = d.title || 'Каталог Дроп IT';
+  document.getElementById('subtitle').textContent = d.subtitle || '';
+  if(d.channel) document.getElementById('chan').href = d.channel;
+  buildCats(); render();
+  setTimeout(flashHash,80);
+}).catch(e=>{ document.getElementById('list').innerHTML =
+  '<div class="empty">Не удалось загрузить каталог. Обнови страницу.</div>'; });
+document.getElementById('q').addEventListener('input', e=>render(e.target.value));
+window.addEventListener('hashchange', flashHash);
+</script>
+</body>
+</html>

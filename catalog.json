@@ -42,7 +42,8 @@
       "stars": 67734,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "crawl4ai"
     },
     {
       "name": "firecrawl",
@@ -53,7 +54,8 @@
       "stars": 128372,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "firecrawl"
     },
     {
       "name": "Scrapegraph-ai",
@@ -64,7 +66,8 @@
       "stars": 26698,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "scrapegraph-ai"
     },
     {
       "name": "crawlee",
@@ -75,7 +78,8 @@
       "stars": 23657,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "crawlee"
     },
     {
       "name": "scrapy",
@@ -86,7 +90,8 @@
       "stars": 62095,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "scrapy"
     },
     {
       "name": "claude-flow",
@@ -97,7 +102,8 @@
       "stars": 57786,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "claude-flow"
     },
     {
       "name": "claude-squad",
@@ -108,7 +114,8 @@
       "stars": 7708,
       "lang": "Go",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "claude-squad"
     },
     {
       "name": "ollama",
@@ -119,7 +126,8 @@
       "stars": 173119,
       "lang": "Go",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "ollama"
     },
     {
       "name": "ComfyUI",
@@ -130,7 +138,8 @@
       "stars": 115628,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "comfyui"
     },
     {
       "name": "rembg",
@@ -141,7 +150,8 @@
       "stars": 23178,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "rembg"
     },
     {
       "name": "Awesome ChatGPT Prompts",
@@ -152,7 +162,8 @@
       "stars": 163280,
       "lang": "HTML",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "awesome-chatgpt-prompts"
     },
     {
       "name": "playwright",
@@ -163,7 +174,8 @@
       "stars": 90239,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "playwright"
     },
     {
       "name": "claude-code-router",
@@ -174,7 +186,8 @@
       "stars": 34682,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "claude-code-router"
     },
     {
       "name": "GSAP",
@@ -185,7 +198,8 @@
       "stars": 25434,
       "lang": "JavaScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "gsap"
     },
     {
       "name": "SuperClaude",
@@ -196,7 +210,8 @@
       "stars": 23168,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "superclaude"
     },
     {
       "name": "agentmemory",
@@ -207,7 +222,8 @@
       "stars": 21069,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "agentmemory"
     },
     {
       "name": "gemini-voyager",
@@ -218,7 +234,8 @@
       "stars": 18578,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "gemini-voyager"
     },
     {
       "name": "freellmapi",
@@ -229,7 +246,8 @@
       "stars": 7382,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "freellmapi"
     },
     {
       "name": "Webwright",
@@ -240,7 +258,8 @@
       "stars": 5015,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "webwright"
     },
     {
       "name": "browserytools",
@@ -251,7 +270,8 @@
       "stars": 405,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "browserytools"
     },
     {
       "name": "SolveCaptcha",
@@ -262,7 +282,8 @@
       "stars": 151,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "solvecaptcha"
     },
     {
       "name": "GSAP Skills",
@@ -273,7 +294,8 @@
       "stars": 7706,
       "lang": "",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "gsap-skills"
     },
     {
       "name": "claude-code-templates",
@@ -284,7 +306,8 @@
       "stars": 27757,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "claude-code-templates"
     },
     {
       "name": "airllm",
@@ -295,7 +318,8 @@
       "stars": 19092,
       "lang": "Jupyter Notebook",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "airllm"
     },
     {
       "name": "Claude Code Action",
@@ -306,7 +330,8 @@
       "stars": 7864,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "claude-code-action"
     },
     {
       "name": "Magic Resume",
@@ -317,7 +342,8 @@
       "stars": 8367,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "magic-resume"
     },
     {
       "name": "DeepMind Science Skills",
@@ -328,7 +354,8 @@
       "stars": 1357,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "deepmind-science-skills"
     },
     {
       "name": "Agentic Project Management",
@@ -339,7 +366,8 @@
       "stars": 2309,
       "lang": "JavaScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "agentic-project-management"
     },
     {
       "name": "AI Website Cloner",
@@ -350,7 +378,8 @@
       "stars": 16196,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "ai-website-cloner"
     },
     {
       "name": "Odysseus",
@@ -361,7 +390,8 @@
       "stars": 46053,
       "lang": "JavaScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "odysseus"
     },
     {
       "name": "agent-scripts",
@@ -372,7 +402,8 @@
       "stars": 4165,
       "lang": "JavaScript",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "agent-scripts"
     },
     {
       "name": "ideogram4",
@@ -383,7 +414,8 @@
       "stars": 652,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "ideogram4"
     },
     {
       "name": "Bonsai-Image-Demo",
@@ -394,7 +426,8 @@
       "stars": 399,
       "lang": "PowerShell",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "bonsai-image-demo"
     },
     {
       "name": "learn-claude-code",
@@ -405,7 +438,8 @@
       "stars": 64705,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-04"
+      "added": "2026-06-04",
+      "slug": "learn-claude-code"
     }
   ]
 }

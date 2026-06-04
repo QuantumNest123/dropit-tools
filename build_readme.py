@@ -7,6 +7,7 @@
 """
 import os
 import json
+import urllib.parse as _up
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CATALOG = os.path.join(HERE, "catalog.json")
@@ -48,8 +49,22 @@ def build():
     total = len(tools)
     mine = sum(1 for t in tools if t.get("audience") == "me")
 
+    # shields.io: дефис в label/message экранируем удвоением, пробел → %20 (через quote)
+    def _badge(label, msg, color, extra=""):
+        q = lambda s: _up.quote(s.replace("-", "--"))
+        return f"https://img.shields.io/badge/{q(label)}-{q(msg)}-{color}{extra}"
+
+    ST = "?style=for-the-badge"
+    tg = _badge("Telegram", "Дроп IT", "229ED9", ST + "&logo=telegram&logoColor=white")
+    cnt = _badge("инструментов", str(total), "E6FF4B", ST)
+    lic = _badge("лицензия", "MIT", "555555", ST)
+
     L = []
     L.append(f"# 🟢 {data['title']}")
+    L.append("")
+    L.append(f"[![Telegram]({tg})]({data['channel']}) "
+             f"![Инструментов]({cnt}) "
+             f"![Лицензия]({lic})")
     L.append("")
     L.append(f"> {data['subtitle']}")
     L.append(f">")

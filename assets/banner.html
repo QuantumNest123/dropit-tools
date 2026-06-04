@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root{ --lime:#E6FF4B; --dark:#1E1C1C; }
+  html,body{ width:1280px; height:640px; }
+  body{
+    background:
+      radial-gradient(900px 520px at 88% -12%, rgba(230,255,75,.18), transparent 60%),
+      radial-gradient(680px 480px at -8% 116%, rgba(230,255,75,.09), transparent 55%),
+      var(--dark);
+    font-family:'Montserrat',sans-serif; color:#fff; position:relative; overflow:hidden;
+  }
+  body::before{ content:""; position:absolute; inset:0;
+    background-image:radial-gradient(rgba(255,255,255,.05) 1.5px, transparent 1.5px);
+    background-size:36px 36px;
+    -webkit-mask:linear-gradient(180deg,#000,transparent 78%); }
+  .wrap{ position:relative; height:100%; padding:62px 72px;
+    display:flex; flex-direction:column; justify-content:space-between; }
+  .top{ display:flex; align-items:flex-start; justify-content:space-between; }
+  .logo{ height:88px; }
+  .badge{ font-weight:700; font-size:21px; color:var(--lime);
+    border:2px solid rgba(230,255,75,.45); padding:11px 22px; border-radius:999px;
+    letter-spacing:.2px; white-space:nowrap; margin-top:8px; }
+  h1{ font-weight:900; font-size:100px; line-height:.95; letter-spacing:-2.5px; }
+  h1 .lime{ color:var(--lime); }
+  .sub{ margin-top:24px; font-weight:600; font-size:29px; color:#d2d2cb; letter-spacing:.2px; }
+  .foot{ display:flex; align-items:center; justify-content:space-between; }
+  .chips{ display:flex; gap:13px; }
+  .chip{ font-weight:700; font-size:23px; padding:12px 21px; border-radius:14px;
+    background:rgba(255,255,255,.055); border:1px solid rgba(255,255,255,.12); }
+  .handle{ font-weight:800; font-size:27px; color:var(--lime); letter-spacing:.3px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <img class="logo" src="dropit-logo.png" alt="drop IT">
+      <div class="badge">30 проверенных инструментов</div>
+    </div>
+    <div>
+      <h1>Каталог<br><span class="lime">инструментов</span></h1>
+      <div class="sub">нейросети · парсеры · AI-агенты · скиллы</div>
+    </div>
+    <div class="foot">
+      <div class="chips">
+        <span class="chip">🧠 ИИ</span>
+        <span class="chip">🕷 Парсинг</span>
+        <span class="chip">👥 Агенты</span>
+        <span class="chip">🛠 Dev</span>
+        <span class="chip">✨ Скиллы</span>
+      </div>
+      <div class="handle">@aidrop_hq</div>
+    </div>
+  </div>
+</body>
+</html>

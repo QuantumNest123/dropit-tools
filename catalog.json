@@ -384,6 +384,28 @@
       "lang": "Python",
       "source": "github",
       "added": "2026-06-04"
+    },
+    {
+      "name": "Bonsai-Image-Demo",
+      "url": "https://github.com/PrismML-Eng/Bonsai-Image-Demo",
+      "category": "ai-image",
+      "desc_ru": "Bonsai Image 4B — локальный генератор картинок, влезает на Mac и даже iPhone: 1-bit версия всего 0.93 ГБ (×8 меньше FLUX), Apache-2.0, веса на HF, есть WebGPU-демо. ~95% качества FLUX.2 Klein при копеечном размере.",
+      "audience": "me",
+      "stars": 399,
+      "lang": "PowerShell",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "category": "agents",
+      "desc_ru": "Курс «Bash is all you need»: с нуля собираешь на Python мини-агента в духе Claude Code и разбираешь, как устроен agent harness изнутри — цикл, инструменты, контекст. Лучший способ понять, как работают код-агенты.",
+      "audience": "public",
+      "stars": 64705,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-04"
     }
   ]
 }

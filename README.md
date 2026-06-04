@@ -1,10 +1,10 @@
 # 🟢 Каталог Дроп IT
 
-[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-31-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
+[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-32-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
 
 > Инструменты, нейросети и скиллы, о которых рассказываем в канале. Всё проверено и разложено по полочкам.
 >
-> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **31** инструментов · ⭐ — чем пользуемся сами
+> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **32** инструментов · ⭐ — чем пользуемся сами
 
 **Разделы:** [🧠 ИИ для текста и кода](#ии-для-текста-и-кода) · [🎨 ИИ для картинок и видео](#ии-для-картинок-и-видео) · [👥 AI-агенты и автоматизация](#ai-агенты-и-автоматизация) · [🕷 Парсинг и сбор данных](#парсинг-и-сбор-данных) · [🛠 Инструменты разработчика](#инструменты-разработчика) · [✨ Навыки и промпты](#навыки-и-промпты) · [📦 Разное полезное](#разное-полезное)
 
@@ -22,10 +22,11 @@
 
 - **[ComfyUI](https://github.com/Comfy-Org/ComfyUI)** — Генерация картинок Stable Diffusion по узлам-блокам. Бесплатно, запускается локально. · `Python` · ★ 115.6k
 - **[rembg](https://github.com/danielgatis/rembg)** ⭐ — Удаляет фон с картинки одной командой. Используем для чистых фото товаров. · `Python` · ★ 23.2k
+- **[ideogram4](https://github.com/ideogram-oss/ideogram4)** — Ideogram 4.0 — open-weight генератор картинок, силён в тексте и типографике внутри изображения (постеры, логотипы, вывески). Веса на Hugging Face, можно гонять локально. · `Python` · ★ 652
 
 ## 👥 AI-агенты и автоматизация
 
-- **[claude-flow](https://github.com/ruvnet/ruflo)** ⭐ — Рой ИИ-агентов под Claude: распараллеливает большие задачи между несколькими агентами. · `TypeScript` · ★ 57.8k
+- **[claude-flow](https://github.com/ruvnet/ruflo)** ⭐ — claude-flow (ruflo) — мощнейший мета-харнесс для Claude: рои агентов, оркестрация, память. Лидер ниши, десятки тысяч звёзд. · `TypeScript` · ★ 57.8k
 - **[claude-code-router](https://github.com/musistudio/claude-code-router)** ⭐ — Перенаправляет Claude Code на другие модели — дешёвые или локальные. Гибкость и экономия. · `TypeScript` · ★ 34.7k
 - **[claude-code-templates](https://github.com/davila7/claude-code-templates)** — CLI для настройки и мониторинга Claude Code: готовые шаблоны, команды, аналитика. · `Python` · ★ 27.8k
 - **[SuperClaude](https://github.com/SuperClaude-Org/SuperClaude_Framework)** ⭐ — Прокачка Claude Code: спец-команды, роли и режимы под разные задачи. · `Python` · ★ 23.2k

@@ -92,9 +92,9 @@
       "name": "claude-flow",
       "url": "https://github.com/ruvnet/ruflo",
       "category": "agents",
-      "desc_ru": "Рой ИИ-агентов под Claude: распараллеливает большие задачи между несколькими агентами.",
+      "desc_ru": "claude-flow (ruflo) — мощнейший мета-харнесс для Claude: рои агентов, оркестрация, память. Лидер ниши, десятки тысяч звёзд.",
       "audience": "me",
-      "stars": 57757,
+      "stars": 57786,
       "lang": "TypeScript",
       "source": "github",
       "added": "2026-06-04"
@@ -371,6 +371,17 @@
       "audience": "me",
       "stars": 4165,
       "lang": "JavaScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "ideogram4",
+      "url": "https://github.com/ideogram-oss/ideogram4",
+      "category": "ai-image",
+      "desc_ru": "Ideogram 4.0 — open-weight генератор картинок, силён в тексте и типографике внутри изображения (постеры, логотипы, вывески). Веса на Hugging Face, можно гонять локально.",
+      "audience": "public",
+      "stars": 652,
+      "lang": "Python",
       "source": "github",
       "added": "2026-06-04"
     }

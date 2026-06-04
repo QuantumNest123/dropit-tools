@@ -362,6 +362,17 @@
       "lang": "JavaScript",
       "source": "github",
       "added": "2026-06-04"
+    },
+    {
+      "name": "agent-scripts",
+      "url": "https://github.com/steipete/agent-scripts",
+      "category": "agents",
+      "desc_ru": "Личный набор Питера Штайнбергера (создатель OpenClaw) для кодинг-агентов: рабочие инструкции, скиллы и скрипты под Codex/агентов — бустят эффективность и настраивают безопасность, чтобы ИИ не портил файлы.",
+      "audience": "me",
+      "stars": 4165,
+      "lang": "JavaScript",
+      "source": "github",
+      "added": "2026-06-04"
     }
   ]
 }

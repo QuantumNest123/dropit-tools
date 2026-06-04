@@ -153,6 +153,215 @@
       "lang": "HTML",
       "source": "github",
       "added": "2026-06-04"
+    },
+    {
+      "name": "playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "category": "dev-tools",
+      "desc_ru": "Браузерная автоматизация и тестирование от Microsoft. Движок под нашим парсингом и автоматизацией.",
+      "audience": "me",
+      "stars": 90239,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "claude-code-router",
+      "url": "https://github.com/musistudio/claude-code-router",
+      "category": "agents",
+      "desc_ru": "Перенаправляет Claude Code на другие модели — дешёвые или локальные. Гибкость и экономия.",
+      "audience": "me",
+      "stars": 34682,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "GSAP",
+      "url": "https://github.com/greensock/GSAP",
+      "category": "dev-tools",
+      "desc_ru": "Топовая JS-библиотека анимаций для сайтов: плавный скролл, тайминги, эффекты.",
+      "audience": "me",
+      "stars": 25434,
+      "lang": "JavaScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "SuperClaude",
+      "url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+      "category": "agents",
+      "desc_ru": "Прокачка Claude Code: спец-команды, роли и режимы под разные задачи.",
+      "audience": "me",
+      "stars": 23168,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "category": "agents",
+      "desc_ru": "Постоянная память для ИИ-агентов — помнят контекст и историю между сессиями.",
+      "audience": "me",
+      "stars": 21069,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "gemini-voyager",
+      "url": "https://github.com/Nagi-ovo/gemini-voyager",
+      "category": "ai-text",
+      "desc_ru": "Расширение-прокачка Google Gemini и AI Studio: история чатов, удобства, фишки.",
+      "audience": "me",
+      "stars": 18578,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "category": "ai-text",
+      "desc_ru": "Складывает бесплатные лимиты 16 LLM-провайдеров в один OpenAI-совместимый ключ.",
+      "audience": "me",
+      "stars": 7382,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "Webwright",
+      "url": "https://github.com/microsoft/Webwright",
+      "category": "agents",
+      "desc_ru": "Браузер-агент от Microsoft: ИИ сам ходит по сайтам и выполняет задачи.",
+      "audience": "me",
+      "stars": 5015,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "browserytools",
+      "url": "https://github.com/aghyad97/browserytools",
+      "category": "dev-tools",
+      "desc_ru": "136+ браузерных инструментов для работы и разработки. Всё локально, без сервера.",
+      "audience": "me",
+      "stars": 405,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "SolveCaptcha",
+      "url": "https://github.com/solvercaptcha/solvecaptcha-python",
+      "category": "scraping",
+      "desc_ru": "Решалка капч (reCAPTCHA/hCaptcha/Turnstile) — крайняя мера, когда парсинг упёрся в защиту.",
+      "audience": "me",
+      "stars": 151,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "GSAP Skills",
+      "url": "https://github.com/greensock/gsap-skills",
+      "category": "skills",
+      "desc_ru": "Официальные AI-навыки для GSAP: учат ИИ-агентов правильно делать анимации.",
+      "audience": "me",
+      "stars": 7706,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "category": "agents",
+      "desc_ru": "CLI для настройки и мониторинга Claude Code: готовые шаблоны, команды, аналитика.",
+      "audience": "public",
+      "stars": 27757,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "category": "ai-text",
+      "desc_ru": "Запуск больших моделей (до 70B) на одной видеокарте с 4 ГБ. Для слабого железа.",
+      "audience": "public",
+      "stars": 19092,
+      "lang": "Jupyter Notebook",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "Claude Code Action",
+      "url": "https://github.com/anthropics/claude-code-action",
+      "category": "agents",
+      "desc_ru": "Официальный GitHub Action — Claude Code прямо в CI/CD пайплайнах.",
+      "audience": "public",
+      "stars": 7864,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "Magic Resume",
+      "url": "https://github.com/JOYCEQL/magic-resume",
+      "category": "other",
+      "desc_ru": "Бесплатный онлайн-редактор резюме с ИИ. Полезно фрилансерам.",
+      "audience": "public",
+      "stars": 8367,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "DeepMind Science Skills",
+      "url": "https://github.com/google-deepmind/science-skills",
+      "category": "skills",
+      "desc_ru": "Официальные навыки от Google DeepMind для научных ИИ-задач.",
+      "audience": "public",
+      "stars": 1357,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "Agentic Project Management",
+      "url": "https://github.com/sdi2200262/agentic-project-management",
+      "category": "agents",
+      "desc_ru": "Ведение сложных проектов несколькими ИИ-агентами по чёткой спецификации.",
+      "audience": "public",
+      "stars": 2309,
+      "lang": "JavaScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "AI Website Cloner",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "category": "dev-tools",
+      "desc_ru": "Клонирует дизайн любого сайта одной командой через ИИ-агента.",
+      "audience": "public",
+      "stars": 16196,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-04"
+    },
+    {
+      "name": "Odysseus",
+      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "category": "ai-text",
+      "desc_ru": "Self-hosted рабочее пространство с ИИ — разворачиваешь нейросети у себя.",
+      "audience": "public",
+      "stars": 46053,
+      "lang": "JavaScript",
+      "source": "github",
+      "added": "2026-06-04"
     }
   ]
 }

@@ -704,6 +704,18 @@
       "lang": "Go",
       "source": "github",
       "added": "2026-06-05"
+    },
+    {
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "category": "agents",
+      "desc_ru": "Panniantong/Agent-Reach — Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CL",
+      "audience": "public",
+      "stars": 21248,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-05",
+      "slug": "agent-reach"
     }
   ]
 }

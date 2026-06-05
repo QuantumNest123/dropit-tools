@@ -31,16 +31,15 @@
   a{color:inherit;text-decoration:none}
   .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 
-  header.top{border-bottom:1px solid var(--line)}
-  .hero-banner{position:relative;height:230px;overflow:hidden;isolation:isolate;
-    background:#070b09}
+  header.top{border-bottom:1px solid var(--line);background:var(--bg)}
+  .hero-banner{position:relative;height:210px;overflow:hidden;isolation:isolate;
+    background:var(--bg)}
   .hero-banner .hero-bg{position:absolute;inset:0;width:100%;height:100%;
-    object-fit:cover;object-position:center;z-index:0;opacity:.92}
+    object-fit:contain;object-position:center;z-index:0;
+    mix-blend-mode:lighten;opacity:1}
   .hero-banner::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
-    background:
-      radial-gradient(600px 300px at 50% 30%, rgba(52,209,120,.10), transparent 70%),
-      linear-gradient(180deg, rgba(7,11,9,.18) 0%, transparent 30%, rgba(10,15,12,.85) 88%, var(--bg) 100%)}
-  .hero-text{text-align:center;padding:28px 20px 40px}
+    background:radial-gradient(460px 260px at 50% 46%, rgba(52,209,120,.10), transparent 72%)}
+  .hero-text{text-align:center;padding:8px 20px 40px;margin-top:-8px}
   .hero-text h1{margin:0;font-size:36px;letter-spacing:-.8px;font-weight:850}
   .hero-text .sub{color:var(--muted);font-size:15px;margin:11px auto 0;max-width:560px}
   .chanbtn{display:inline-flex;align-items:center;gap:7px;margin-top:22px;
@@ -90,8 +89,8 @@
   footer a{color:var(--green)}
   @media(max-width:560px){
     .grid{grid-template-columns:1fr}
-    .hero-banner{height:150px}
-    .hero-text{padding:22px 18px 32px}
+    .hero-banner{height:175px}
+    .hero-text{padding:6px 18px 32px;margin-top:-6px}
     .hero-text h1{font-size:28px}
     .hero-text .sub{font-size:14px}
     .chanbtn{margin-top:18px}

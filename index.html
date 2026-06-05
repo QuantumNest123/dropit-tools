@@ -31,21 +31,21 @@
   .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 
   header.top{position:relative;overflow:hidden;border-bottom:1px solid var(--line);
-    padding:54px 0 40px;isolation:isolate}
+    padding:72px 0 56px;isolation:isolate;text-align:center}
   header.top .hero-bg{position:absolute;inset:0;width:100%;height:100%;
-    object-fit:cover;z-index:-2;opacity:.55}
+    object-fit:cover;object-position:center;z-index:-2;opacity:.42}
   header.top::after{content:"";position:absolute;inset:0;z-index:-1;
     background:
-      radial-gradient(700px 320px at 78% -20%, rgba(52,209,120,.22), transparent 65%),
-      linear-gradient(180deg, rgba(10,15,12,.55) 0%, rgba(10,15,12,.72) 55%, var(--bg) 100%)}
-  .brand{display:flex;align-items:center;gap:14px}
-  .brand h1{margin:0;font-size:30px;letter-spacing:-.6px;font-weight:850;
-    text-shadow:0 2px 14px rgba(0,0,0,.55)}
-  .brand .sub{color:#cfe0d6;font-size:14.5px;margin-top:5px;max-width:640px;
-    text-shadow:0 1px 8px rgba(0,0,0,.5)}
-  .chanbtn{display:inline-flex;align-items:center;gap:7px;margin-top:16px;
+      radial-gradient(620px 420px at 50% 38%, rgba(52,209,120,.16), transparent 70%),
+      linear-gradient(180deg, rgba(10,15,12,.62) 0%, rgba(10,15,12,.50) 45%, rgba(10,15,12,.82) 100%)}
+  .brand{display:flex;flex-direction:column;align-items:center;gap:0}
+  .brand h1{margin:0;font-size:38px;letter-spacing:-.8px;font-weight:850;
+    text-shadow:0 2px 18px rgba(0,0,0,.6)}
+  .brand .sub{color:#d4e4da;font-size:15px;margin:12px auto 0;max-width:540px;
+    text-shadow:0 1px 10px rgba(0,0,0,.7)}
+  .chanbtn{display:inline-flex;align-items:center;gap:7px;margin-top:22px;
     background:var(--green);color:#04130a;font-weight:700;font-size:14px;
-    padding:9px 16px;border-radius:999px;transition:.15s transform,.15s filter;
+    padding:10px 20px;border-radius:999px;transition:.15s transform,.15s filter;
     box-shadow:0 8px 24px -8px rgba(52,209,120,.6)}
   .chanbtn:hover{transform:translateY(-1px);filter:brightness(1.07)}
 
@@ -89,8 +89,9 @@
   footer{border-top:1px solid var(--line);margin-top:40px;padding:30px 0 50px;color:var(--muted2);font-size:13px}
   footer a{color:var(--green)}
   @media(max-width:560px){
-    .brand h1{font-size:22px}.grid{grid-template-columns:1fr}
-    header.top{padding:26px 0 18px}
+    .brand h1{font-size:30px}.grid{grid-template-columns:1fr}
+    header.top{padding:48px 0 40px}
+    .brand .sub{font-size:14px}
   }
 </style>
 </head>

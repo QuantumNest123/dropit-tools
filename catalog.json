@@ -440,6 +440,18 @@
       "source": "github",
       "added": "2026-06-04",
       "slug": "learn-claude-code"
+    },
+    {
+      "name": "zz-selftest-DELETEME",
+      "url": "https://github.com/zz/selftest-deleteme",
+      "category": "dev-tools",
+      "desc_ru": "тест записи",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "channel",
+      "added": "2026-06-05",
+      "slug": "zz-selftest-deleteme"
     }
   ]
 }

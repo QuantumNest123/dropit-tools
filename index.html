@@ -30,15 +30,23 @@
   a{color:inherit;text-decoration:none}
   .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 
-  header.top{padding:38px 0 22px;border-bottom:1px solid var(--line);
-    background:linear-gradient(180deg,rgba(52,209,120,.05),transparent)}
+  header.top{position:relative;overflow:hidden;border-bottom:1px solid var(--line);
+    padding:54px 0 40px;isolation:isolate}
+  header.top .hero-bg{position:absolute;inset:0;width:100%;height:100%;
+    object-fit:cover;z-index:-2;opacity:.55}
+  header.top::after{content:"";position:absolute;inset:0;z-index:-1;
+    background:
+      radial-gradient(700px 320px at 78% -20%, rgba(52,209,120,.22), transparent 65%),
+      linear-gradient(180deg, rgba(10,15,12,.55) 0%, rgba(10,15,12,.72) 55%, var(--bg) 100%)}
   .brand{display:flex;align-items:center;gap:14px}
-  .brand img{height:50px;width:auto;max-width:160px;object-fit:contain;border-radius:10px}
-  .brand h1{margin:0;font-size:26px;letter-spacing:-.5px;font-weight:800}
-  .brand .sub{color:var(--muted);font-size:14.5px;margin-top:3px;max-width:640px}
-  .chanbtn{display:inline-flex;align-items:center;gap:7px;margin-top:14px;
+  .brand h1{margin:0;font-size:30px;letter-spacing:-.6px;font-weight:850;
+    text-shadow:0 2px 14px rgba(0,0,0,.55)}
+  .brand .sub{color:#cfe0d6;font-size:14.5px;margin-top:5px;max-width:640px;
+    text-shadow:0 1px 8px rgba(0,0,0,.5)}
+  .chanbtn{display:inline-flex;align-items:center;gap:7px;margin-top:16px;
     background:var(--green);color:#04130a;font-weight:700;font-size:14px;
-    padding:9px 16px;border-radius:999px;transition:.15s transform,.15s filter}
+    padding:9px 16px;border-radius:999px;transition:.15s transform,.15s filter;
+    box-shadow:0 8px 24px -8px rgba(52,209,120,.6)}
   .chanbtn:hover{transform:translateY(-1px);filter:brightness(1.07)}
 
   .controls{position:sticky;top:0;z-index:5;background:rgba(10,15,12,.86);
@@ -87,9 +95,13 @@
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap">
+<header class="top">
+  <video class="hero-bg" autoplay loop muted playsinline poster="assets/social-preview.png">
+    <source src="assets/wallpaper.webm" type="video/webm">
+    <source src="assets/wallpaper.mp4" type="video/mp4">
+  </video>
+  <div class="wrap">
   <div class="brand">
-    <img src="assets/dropit-logo.png" alt="Дроп IT">
     <div>
       <h1 id="title">Каталог Дроп IT</h1>
       <div class="sub" id="subtitle"></div>

@@ -103,12 +103,12 @@
   <div class="wrap">
   <div class="brand">
     <div>
-      <h1 id="title">Каталог Дроп IT</h1>
+      <h1 id="title">Каталог</h1>
       <div class="sub" id="subtitle"></div>
     </div>
   </div>
   <a class="chanbtn" id="chan" href="https://t.me/aidrop_hq" target="_blank" rel="noopener">
-    Канал Дроп IT →
+    Наш канал →
   </a>
 </div></header>
 
@@ -185,7 +185,7 @@ function flashHash(){
 }
 fetch('catalog.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   DATA=d;
-  document.getElementById('title').textContent = d.title || 'Каталог Дроп IT';
+  document.getElementById('title').textContent = d.title || 'Каталог';
   document.getElementById('subtitle').textContent = d.subtitle || '';
   if(d.channel) document.getElementById('chan').href = d.channel;
   buildCats(); render();

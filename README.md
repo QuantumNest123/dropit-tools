@@ -1,10 +1,10 @@
-# 🟢 Каталог Дроп IT
+# 🟢 Каталог
 
-[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-58-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
+[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-64-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
 
 > Инструменты, нейросети и скиллы, о которых рассказываем в канале. Всё проверено и разложено по полочкам.
 >
-> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **58** инструментов · ⭐ — чем пользуемся сами
+> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **64** инструментов · ⭐ — чем пользуемся сами
 
 **Разделы:** [🧠 ИИ для текста и кода](#ии-для-текста-и-кода) · [🎨 ИИ для картинок и видео](#ии-для-картинок-и-видео) · [👥 AI-агенты и автоматизация](#ai-агенты-и-автоматизация) · [🕷 Парсинг и сбор данных](#парсинг-и-сбор-данных) · [🛠 Инструменты разработчика](#инструменты-разработчика) · [✨ Навыки и промпты](#навыки-и-промпты) · [📦 Разное полезное](#разное-полезное)
 
@@ -13,6 +13,7 @@
 ## 🧠 ИИ для текста и кода
 
 - **[ollama](https://github.com/ollama/ollama)** — Запуск нейросетей (Llama, Qwen и др.) локально на своём компе. Бесплатно, без интернета. · `Go` · ★ 173.1k
+- **[career-ops](https://github.com/santifer/career-ops)** — santifer/career-ops — AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. · `JavaScript` · ★ 49k
 - **[Odysseus](https://github.com/pewdiepie-archdaemon/odysseus)** — Self-hosted рабочее пространство с ИИ — разворачиваешь нейросети у себя. · `JavaScript` · ★ 46.1k
 - **[open-notebook](https://github.com/lfnovo/open-notebook)** — Открытая реализация Google NotebookLM — свой ИИ-ноутбук для работы с источниками и заметками. · `TypeScript` · ★ 25.5k
 - **[airllm](https://github.com/lyogavin/airllm)** — Запуск больших моделей (до 70B) на одной видеокарте с 4 ГБ. Для слабого железа. · `Jupyter Notebook` · ★ 19.1k
@@ -38,14 +39,18 @@
 - **[claude-code-templates](https://github.com/davila7/claude-code-templates)** — CLI для настройки и мониторинга Claude Code: готовые шаблоны, команды, аналитика. · `Python` · ★ 27.8k
 - **[supermemory](https://github.com/supermemoryai/supermemory)** ⭐ — Движок памяти для ИИ — быстрый слой долговременной памяти и поиска для агентов и приложений. · `TypeScript` · ★ 25.6k
 - **[SuperClaude](https://github.com/SuperClaude-Org/SuperClaude_Framework)** ⭐ — Прокачка Claude Code: спец-команды, роли и режимы под разные задачи. · `Python` · ★ 23.2k
+- **[Agent-Reach](https://github.com/Panniantong/Agent-Reach)** — Panniantong/Agent-Reach — Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CL · `Python` · ★ 21.2k
 - **[agentmemory](https://github.com/rohitg00/agentmemory)** ⭐ — Постоянная память для ИИ-агентов — помнят контекст и историю между сессиями. · `TypeScript` · ★ 21.1k
 - **[compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin)** ⭐ — Официальный плагин Compound Engineering для Claude Code — копит контекст и наработки между задачами. · `TypeScript` · ★ 19.8k
+- **[Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure)** — danielmiessler/Personal_AI_Infrastructure — Agentic AI Infrastructure for magnifying HUMAN capabilities. · `TypeScript` · ★ 14.8k
 - **[oh-my-pi](https://github.com/can1357/oh-my-pi)** — oh-my-pi — терминальный ИИ-кодинг-агент, альтернатива Claude Code/Codex. · `TypeScript` · ★ 10.7k
 - **[Claude Code Action](https://github.com/anthropics/claude-code-action)** — Официальный GitHub Action — Claude Code прямо в CI/CD пайплайнах. · `TypeScript` · ★ 7.9k
 - **[claude-squad](https://github.com/smtg-ai/claude-squad)** ⭐ — Несколько Claude-агентов работают параллельно в отдельных ветках. Для крупных задач сразу. · `Go` · ★ 7.7k
 - **[Webwright](https://github.com/microsoft/Webwright)** ⭐ — Браузер-агент от Microsoft: ИИ сам ходит по сайтам и выполняет задачи. · `Python` · ★ 5k
 - **[agent-scripts](https://github.com/steipete/agent-scripts)** ⭐ — Личный набор Питера Штайнбергера (создатель OpenClaw) для кодинг-агентов: рабочие инструкции, скиллы и скрипты под Codex/агентов — бустят эффективность и настраивают безопасность, чтобы ИИ не портил файлы. · `JavaScript` · ★ 4.2k
 - **[Agentic Project Management](https://github.com/sdi2200262/agentic-project-management)** — Ведение сложных проектов несколькими ИИ-агентами по чёткой спецификации. · `JavaScript` · ★ 2.3k
+- **[application-skills](https://github.com/membranedev/application-skills)** — Забираем больше 3️⃣0️⃣0️⃣0️⃣ навыков для ваших ИИ-агентов, которые учат нейронки работать с конкретными приложениями. Гении собрали ультимативный топ под любые
+- **[FreeQwenApi](https://github.com/ForgetMeAI/FreeQwenApi)** — 🔥 БЕСПЛАТНО ПОДКЛЮЧАЕМ QWEN 3.7 MAX К HERMES AGENT
 
 ## 🕷 Парсинг и сбор данных
 
@@ -55,6 +60,7 @@
 - **[Scrapling](https://github.com/D4Vinci/Scrapling)** ⭐ — Адаптивный фреймворк веб-скрапинга на Python — сам подстраивается под изменения структуры сайта. В скрапер-арсенал. · `Python` · ★ 61.1k
 - **[Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** ⭐ — Парсинг промптом: пишешь словами что извлечь — достаёт. Для точечных разовых задач. · `Python` · ★ 26.7k
 - **[crawlee](https://github.com/apify/crawlee)** ⭐ — Парсинг с обходом антибота и ротацией прокси. Когда обычный краулер блокируют. · `TypeScript` · ★ 23.7k
+- **[reader](https://github.com/jina-ai/reader)** ⭐ — Jina Reader: превращает любой URL в чистый markdown для LLM (r.jina.ai/<url>). Apache-2.0, для парсинга и RAG — в наш скрапер-арсенал. · `TypeScript` · ★ 11k
 - **[SolveCaptcha](https://github.com/solvercaptcha/solvecaptcha-python)** ⭐ — Решалка капч (reCAPTCHA/hCaptcha/Turnstile) — крайняя мера, когда парсинг упёрся в защиту. · `Python` · ★ 151
 
 ## 🛠 Инструменты разработчика

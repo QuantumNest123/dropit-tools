@@ -764,6 +764,17 @@
       "source": "github",
       "added": "2026-06-06",
       "slug": "freeqwenapi"
+    },
+    {
+      "name": "reader",
+      "url": "https://github.com/jina-ai/reader",
+      "category": "scraping",
+      "desc_ru": "Jina Reader: превращает любой URL в чистый markdown для LLM (r.jina.ai/<url>). Apache-2.0, для парсинга и RAG — в наш скрапер-арсенал.",
+      "audience": "me",
+      "stars": 11040,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-07"
     }
   ]
 }

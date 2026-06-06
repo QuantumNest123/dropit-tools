@@ -752,6 +752,18 @@
       "source": "github",
       "added": "2026-06-06",
       "slug": "career-ops"
+    },
+    {
+      "name": "FreeQwenApi",
+      "url": "https://github.com/ForgetMeAI/FreeQwenApi",
+      "category": "agents",
+      "desc_ru": "🔥 БЕСПЛАТНО ПОДКЛЮЧАЕМ QWEN 3.7 MAX К HERMES AGENT",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-06",
+      "slug": "freeqwenapi"
     }
   ]
 }

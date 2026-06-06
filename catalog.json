@@ -775,6 +775,17 @@
       "lang": "TypeScript",
       "source": "github",
       "added": "2026-06-07"
+    },
+    {
+      "name": "FreeDeepseekAPI",
+      "url": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
+      "category": "ai-text",
+      "desc_ru": "Локальный прокси к DeepSeek Web Chat — даёт бесплатный доступ к DeepSeek через OpenAI-совместимый API (с сессиями). От того же автора, что FreeQwenApi.",
+      "audience": "me",
+      "stars": 14,
+      "lang": "JavaScript",
+      "source": "github",
+      "added": "2026-06-07"
     }
   ]
 }

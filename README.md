@@ -1,10 +1,10 @@
 # 🟢 Каталог
 
-[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-64-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
+[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-65-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
 
 > Инструменты, нейросети и скиллы, о которых рассказываем в канале. Всё проверено и разложено по полочкам.
 >
-> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **64** инструментов · ⭐ — чем пользуемся сами
+> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **65** инструментов · ⭐ — чем пользуемся сами
 
 **Разделы:** [🧠 ИИ для текста и кода](#ии-для-текста-и-кода) · [🎨 ИИ для картинок и видео](#ии-для-картинок-и-видео) · [👥 AI-агенты и автоматизация](#ai-агенты-и-автоматизация) · [🕷 Парсинг и сбор данных](#парсинг-и-сбор-данных) · [🛠 Инструменты разработчика](#инструменты-разработчика) · [✨ Навыки и промпты](#навыки-и-промпты) · [📦 Разное полезное](#разное-полезное)
 
@@ -19,6 +19,7 @@
 - **[airllm](https://github.com/lyogavin/airllm)** — Запуск больших моделей (до 70B) на одной видеокарте с 4 ГБ. Для слабого железа. · `Jupyter Notebook` · ★ 19.1k
 - **[gemini-voyager](https://github.com/Nagi-ovo/gemini-voyager)** ⭐ — Расширение-прокачка Google Gemini и AI Studio: история чатов, удобства, фишки. · `TypeScript` · ★ 18.6k
 - **[freellmapi](https://github.com/tashfeenahmed/freellmapi)** ⭐ — Складывает бесплатные лимиты 16 LLM-провайдеров в один OpenAI-совместимый ключ. · `TypeScript` · ★ 7.4k
+- **[FreeDeepseekAPI](https://github.com/ForgetMeAI/FreeDeepseekAPI)** ⭐ — Локальный прокси к DeepSeek Web Chat — даёт бесплатный доступ к DeepSeek через OpenAI-совместимый API (с сессиями). От того же автора, что FreeQwenApi. · `JavaScript` · ★ 14
 
 ## 🎨 ИИ для картинок и видео
 

@@ -716,6 +716,18 @@
       "source": "github",
       "added": "2026-06-05",
       "slug": "agent-reach"
+    },
+    {
+      "name": "Personal_AI_Infrastructure",
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "category": "agents",
+      "desc_ru": "danielmiessler/Personal_AI_Infrastructure — Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "audience": "public",
+      "stars": 14793,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-06",
+      "slug": "personalaiinfrastructure"
     }
   ]
 }

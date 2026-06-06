@@ -740,6 +740,18 @@
       "source": "github",
       "added": "2026-06-06",
       "slug": "application-skills"
+    },
+    {
+      "name": "career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "category": "ai-text",
+      "desc_ru": "santifer/career-ops — AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "audience": "public",
+      "stars": 48971,
+      "lang": "JavaScript",
+      "source": "github",
+      "added": "2026-06-06",
+      "slug": "career-ops"
     }
   ]
 }

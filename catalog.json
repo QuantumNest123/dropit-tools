@@ -798,6 +798,18 @@
       "source": "hugging face",
       "added": "2026-06-07",
       "slug": "huggingfaceco"
+    },
+    {
+      "name": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "category": "ai-text",
+      "desc_ru": "ggml-org/llama.cpp — LLM inference in C/C++",
+      "audience": "public",
+      "stars": 115085,
+      "lang": "C++",
+      "source": "github",
+      "added": "2026-06-07",
+      "slug": "llamacpp"
     }
   ]
 }

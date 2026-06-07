@@ -810,6 +810,18 @@
       "source": "github",
       "added": "2026-06-07",
       "slug": "llamacpp"
+    },
+    {
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "category": "ai-text",
+      "desc_ru": "mattpocock/skills — Skills for Real Engineers. Straight from my .claude directory.",
+      "audience": "public",
+      "stars": 120229,
+      "lang": "Shell",
+      "source": "github",
+      "added": "2026-06-07",
+      "slug": "skills"
     }
   ]
 }

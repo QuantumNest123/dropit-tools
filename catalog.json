@@ -786,6 +786,18 @@
       "lang": "JavaScript",
       "source": "github",
       "added": "2026-06-07"
+    },
+    {
+      "name": "huggingface.co",
+      "url": "https://huggingface.co/huihui-ai/Huihui-gemma-4-12B-it-abliterated",
+      "category": "other",
+      "desc_ru": "⚡️ Новый ХуйХуй РЕЛИЗНУЛСЯ — это самая безбашенная китайская нейронка, которая вообще плевала на цензуру и любые ограничения.",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "hugging face",
+      "added": "2026-06-07",
+      "slug": "huggingfaceco"
     }
   ]
 }

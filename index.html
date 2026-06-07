@@ -79,6 +79,9 @@
   .tool .name{font-weight:730;font-size:16.5px;letter-spacing:-.2px}
   .tool .me{font-size:10.5px;font-weight:700;color:var(--green);border:1px solid var(--green-d);
     border-radius:999px;padding:2px 8px;white-space:nowrap}
+  .tool .new{font-size:10px;font-weight:800;letter-spacing:.5px;color:#06120c;background:var(--green);
+    border-radius:999px;padding:2px 7px;white-space:nowrap}
+  .tool .badges{display:flex;gap:6px;align-items:center;flex-shrink:0}
   .tool .desc{color:var(--muted);font-size:14px;flex:1}
   .tool .meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:12px;color:var(--muted2);margin-top:1px}
   .tool .meta .tag{background:var(--bg2);border:1px solid var(--line);border-radius:7px;padding:2px 7px}
@@ -145,14 +148,24 @@ function slugify(name){
     .replace(/-+/g,'-').replace(/^-|-$/g,'');
 }
 let DATA={categories:[],tools:[]};
+let NEW_SET=new Set();   // slug'и последних ~6 добавленных тулз → бейдж «NEW»
+const NEW_COUNT=6;
+function computeNew(tools){
+  // новейшие по дате added (внутри одной даты — кто позже в файле), берём последние NEW_COUNT
+  return new Set([...(tools||[])]
+    .map((t,i)=>({s:(t.slug||slugify(t.name)), k:(t.added||'')+String(i).padStart(4,'0')}))
+    .sort((a,b)=>a.k<b.k?-1:1)
+    .slice(-NEW_COUNT).map(x=>x.s));
+}
 
 function card(t){
   const slug = t.slug || slugify(t.name);
   const stars = t.stars ? `<span class="tag">★ ${Number(t.stars).toLocaleString('ru')}</span>` : '';
   const lang = t.lang ? `<span class="tag">${esc(t.lang)}</span>` : '';
   const me = t.audience==='me' ? `<span class="me">наш инструмент</span>` : '';
+  const isNew = NEW_SET.has(slug) ? `<span class="new">NEW</span>` : '';
   return `<a class="tool" id="${slug}" href="${esc(t.url)}" target="_blank" rel="noopener" data-s="${esc((t.name+' '+(t.desc_ru||'')+' '+(t.lang||'')).toLowerCase())}">
-    <div class="h"><span class="name">${esc(t.name)}</span>${me}</div>
+    <div class="h"><span class="name">${esc(t.name)}</span><span class="badges">${isNew}${me}</span></div>
     <div class="desc">${esc(t.desc_ru||'')}</div>
     <div class="meta">${lang}${stars}</div>
     <span class="go">Открыть источник →</span>
@@ -189,6 +202,7 @@ function flashHash(){
 }
 fetch('catalog.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   DATA=d;
+  NEW_SET=computeNew(d.tools);
   document.getElementById('title').textContent = d.title || 'Каталог';
   document.getElementById('subtitle').textContent = d.subtitle || '';
   if(d.channel) document.getElementById('chan').href = d.channel;

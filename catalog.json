@@ -822,6 +822,18 @@
       "source": "github",
       "added": "2026-06-07",
       "slug": "skills"
+    },
+    {
+      "name": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "category": "agents",
+      "desc_ru": "phuryn/pm-skills — PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "audience": "public",
+      "stars": 12325,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-08",
+      "slug": "pm-skills"
     }
   ]
 }

@@ -846,6 +846,54 @@
       "source": "github",
       "added": "2026-06-09",
       "slug": "hands-on-ai-engineering"
+    },
+    {
+      "name": "Remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "category": "ai-image",
+      "desc_ru": "Видео из кода на React: пишешь компоненты — получаешь MP4 с анимацией, моушен-графикой, субтитрами. Claude Code генерит такие ролики прямо из промпта.",
+      "audience": "me",
+      "stars": 21000,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-09",
+      "slug": "remotion"
+    },
+    {
+      "name": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "category": "dev-tools",
+      "desc_ru": "Качалка видео и аудио с YouTube и 1000+ сайтов. База для нарезки чужих роликов на шортсы и для расшифровки.",
+      "audience": "me",
+      "stars": 90000,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-09",
+      "slug": "yt-dlp"
+    },
+    {
+      "name": "faster-whisper",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "category": "ai-text",
+      "desc_ru": "Быстрая локальная расшифровка речи в текст с тайм-кодами. Бесплатно и офлайн — для субтитров и разбора видео.",
+      "audience": "me",
+      "stars": 13000,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-09",
+      "slug": "faster-whisper"
+    },
+    {
+      "name": "OpusClip",
+      "url": "https://opus.pro",
+      "category": "ai-image",
+      "desc_ru": "Сам нарезает длинные видео на вирусные вертикальные шортсы с субтитрами. Платный — но похожее мы собираем бесплатно на yt-dlp + whisper + ffmpeg.",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "web",
+      "added": "2026-06-09",
+      "slug": "opusclip"
     }
   ]
 }

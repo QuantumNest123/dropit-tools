@@ -1,10 +1,10 @@
 # 🟢 Каталог
 
-[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-65-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
+[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-74-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
 
 > Инструменты, нейросети и скиллы, о которых рассказываем в канале. Всё проверено и разложено по полочкам.
 >
-> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **65** инструментов · ⭐ — чем пользуемся сами
+> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **74** инструментов · ⭐ — чем пользуемся сами
 
 **Разделы:** [🧠 ИИ для текста и кода](#ии-для-текста-и-кода) · [🎨 ИИ для картинок и видео](#ии-для-картинок-и-видео) · [👥 AI-агенты и автоматизация](#ai-агенты-и-автоматизация) · [🕷 Парсинг и сбор данных](#парсинг-и-сбор-данных) · [🛠 Инструменты разработчика](#инструменты-разработчика) · [✨ Навыки и промпты](#навыки-и-промпты) · [📦 Разное полезное](#разное-полезное)
 
@@ -13,11 +13,14 @@
 ## 🧠 ИИ для текста и кода
 
 - **[ollama](https://github.com/ollama/ollama)** — Запуск нейросетей (Llama, Qwen и др.) локально на своём компе. Бесплатно, без интернета. · `Go` · ★ 173.1k
+- **[skills](https://github.com/mattpocock/skills)** — mattpocock/skills — Skills for Real Engineers. Straight from my .claude directory. · `Shell` · ★ 120.2k
+- **[llama.cpp](https://github.com/ggml-org/llama.cpp)** — ggml-org/llama.cpp — LLM inference in C/C++ · `C++` · ★ 115.1k
 - **[career-ops](https://github.com/santifer/career-ops)** — santifer/career-ops — AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. · `JavaScript` · ★ 49k
 - **[Odysseus](https://github.com/pewdiepie-archdaemon/odysseus)** — Self-hosted рабочее пространство с ИИ — разворачиваешь нейросети у себя. · `JavaScript` · ★ 46.1k
 - **[open-notebook](https://github.com/lfnovo/open-notebook)** — Открытая реализация Google NotebookLM — свой ИИ-ноутбук для работы с источниками и заметками. · `TypeScript` · ★ 25.5k
 - **[airllm](https://github.com/lyogavin/airllm)** — Запуск больших моделей (до 70B) на одной видеокарте с 4 ГБ. Для слабого железа. · `Jupyter Notebook` · ★ 19.1k
 - **[gemini-voyager](https://github.com/Nagi-ovo/gemini-voyager)** ⭐ — Расширение-прокачка Google Gemini и AI Studio: история чатов, удобства, фишки. · `TypeScript` · ★ 18.6k
+- **[faster-whisper](https://github.com/SYSTRAN/faster-whisper)** ⭐ — Быстрая локальная расшифровка речи в текст с тайм-кодами. Бесплатно и офлайн — для субтитров и разбора видео. · `Python` · ★ 13k
 - **[freellmapi](https://github.com/tashfeenahmed/freellmapi)** ⭐ — Складывает бесплатные лимиты 16 LLM-провайдеров в один OpenAI-совместимый ключ. · `TypeScript` · ★ 7.4k
 - **[FreeDeepseekAPI](https://github.com/ForgetMeAI/FreeDeepseekAPI)** ⭐ — Локальный прокси к DeepSeek Web Chat — даёт бесплатный доступ к DeepSeek через OpenAI-совместимый API (с сессиями). От того же автора, что FreeQwenApi. · `JavaScript` · ★ 14
 
@@ -25,9 +28,11 @@
 
 - **[ComfyUI](https://github.com/Comfy-Org/ComfyUI)** — Генерация картинок Stable Diffusion по узлам-блокам. Бесплатно, запускается локально. · `Python` · ★ 115.6k
 - **[rembg](https://github.com/danielgatis/rembg)** ⭐ — Удаляет фон с картинки одной командой. Используем для чистых фото товаров. · `Python` · ★ 23.2k
+- **[Remotion](https://github.com/remotion-dev/remotion)** ⭐ — Видео из кода на React: пишешь компоненты — получаешь MP4 с анимацией, моушен-графикой, субтитрами. Claude Code генерит такие ролики прямо из промпта. · `TypeScript` · ★ 21k
 - **[cosmos](https://github.com/NVIDIA/cosmos)** — NVIDIA Cosmos — открытая платформа world-foundation-моделей для физического ИИ и генерации мира/видео. · `Jupyter Notebook` · ★ 9.3k
 - **[ideogram4](https://github.com/ideogram-oss/ideogram4)** — Ideogram 4.0 — open-weight генератор картинок, силён в тексте и типографике внутри изображения (постеры, логотипы, вывески). Веса на Hugging Face, можно гонять локально. · `Python` · ★ 652
 - **[Bonsai-Image-Demo](https://github.com/PrismML-Eng/Bonsai-Image-Demo)** ⭐ — Bonsai Image 4B — локальный генератор картинок, влезает на Mac и даже iPhone: 1-bit версия всего 0.93 ГБ (×8 меньше FLUX), Apache-2.0, веса на HF, есть WebGPU-демо. ~95% качества FLUX.2 Klein при копеечном размере. · `PowerShell` · ★ 399
+- **[OpusClip](https://opus.pro)** — Сам нарезает длинные видео на вирусные вертикальные шортсы с субтитрами. Платный — но похожее мы собираем бесплатно на yt-dlp + whisper + ffmpeg.
 
 ## 👥 AI-агенты и автоматизация
 
@@ -44,6 +49,7 @@
 - **[agentmemory](https://github.com/rohitg00/agentmemory)** ⭐ — Постоянная память для ИИ-агентов — помнят контекст и историю между сессиями. · `TypeScript` · ★ 21.1k
 - **[compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin)** ⭐ — Официальный плагин Compound Engineering для Claude Code — копит контекст и наработки между задачами. · `TypeScript` · ★ 19.8k
 - **[Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure)** — danielmiessler/Personal_AI_Infrastructure — Agentic AI Infrastructure for magnifying HUMAN capabilities. · `TypeScript` · ★ 14.8k
+- **[pm-skills](https://github.com/phuryn/pm-skills)** — phuryn/pm-skills — PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth. · ★ 12.3k
 - **[oh-my-pi](https://github.com/can1357/oh-my-pi)** — oh-my-pi — терминальный ИИ-кодинг-агент, альтернатива Claude Code/Codex. · `TypeScript` · ★ 10.7k
 - **[Claude Code Action](https://github.com/anthropics/claude-code-action)** — Официальный GitHub Action — Claude Code прямо в CI/CD пайплайнах. · `TypeScript` · ★ 7.9k
 - **[claude-squad](https://github.com/smtg-ai/claude-squad)** ⭐ — Несколько Claude-агентов работают параллельно в отдельных ветках. Для крупных задач сразу. · `Go` · ★ 7.7k
@@ -52,6 +58,7 @@
 - **[Agentic Project Management](https://github.com/sdi2200262/agentic-project-management)** — Ведение сложных проектов несколькими ИИ-агентами по чёткой спецификации. · `JavaScript` · ★ 2.3k
 - **[application-skills](https://github.com/membranedev/application-skills)** — Забираем больше 3️⃣0️⃣0️⃣0️⃣ навыков для ваших ИИ-агентов, которые учат нейронки работать с конкретными приложениями. Гении собрали ультимативный топ под любые
 - **[FreeQwenApi](https://github.com/ForgetMeAI/FreeQwenApi)** — 🔥 БЕСПЛАТНО ПОДКЛЮЧАЕМ QWEN 3.7 MAX К HERMES AGENT
+- **[Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering)** — Забираем большой сборник из 5️⃣0️⃣+ гайдов по созданию своих ИИ-агентов, RAG-систем, OCR-приложений и голосовых нейронок
 
 ## 🕷 Парсинг и сбор данных
 
@@ -67,6 +74,7 @@
 ## 🛠 Инструменты разработчика
 
 - **[playwright](https://github.com/microsoft/playwright)** ⭐ — Браузерная автоматизация и тестирование от Microsoft. Движок под нашим парсингом и автоматизацией. · `TypeScript` · ★ 90.2k
+- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** ⭐ — Качалка видео и аудио с YouTube и 1000+ сайтов. База для нарезки чужих роликов на шортсы и для расшифровки. · `Python` · ★ 90k
 - **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** — Мощный OCR: превращает PDF и картинки в структурированные данные. Распознаёт текст, таблицы, формулы. · `Python` · ★ 80.3k
 - **[trivy](https://github.com/aquasecurity/trivy)** — Сканер безопасности: ищет уязвимости, мисконфиги и секреты в коде, образах и инфраструктуре. · `Go` · ★ 35.8k
 - **[GSAP](https://github.com/greensock/GSAP)** ⭐ — Топовая JS-библиотека анимаций для сайтов: плавный скролл, тайминги, эффекты. · `JavaScript` · ★ 25.4k
@@ -95,6 +103,7 @@
 - **[Magic Resume](https://github.com/JOYCEQL/magic-resume)** — Бесплатный онлайн-редактор резюме с ИИ. Полезно фрилансерам. · `TypeScript` · ★ 8.4k
 - **[MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)** — MOSS-TTS — открытое семейство моделей синтеза речи от команды MOSS. · `Python` · ★ 3.1k
 - **[MisoTTS](https://github.com/MisoLabsAI/MisoTTS)** — MisoTTS 8B — эмоциональный синтез речи, клонирует голос за 10 секунд. Есть браузер-демо. · `Python` · ★ 1.7k
+- **[huggingface.co](https://huggingface.co/huihui-ai/Huihui-gemma-4-12B-it-abliterated)** — ⚡️ Новый ХуйХуй РЕЛИЗНУЛСЯ — это самая безбашенная китайская нейронка, которая вообще плевала на цензуру и любые ограничения.
 
 ---
 

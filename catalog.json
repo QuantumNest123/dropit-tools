@@ -942,6 +942,18 @@
       "source": "github",
       "added": "2026-06-09",
       "slug": "ai-youtube-shorts-generator"
+    },
+    {
+      "name": "⚡️ Нейронка-монстр вообще БЕЗ цензуры ре",
+      "url": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED",
+      "category": "other",
+      "desc_ru": "⚡️ Нейронка-монстр вообще БЕЗ цензуры релизнулась — гении взяли Gemma 4 от Google и превратила в настоящего злыдня. ИИ п",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "hugging face",
+      "added": "2026-06-10",
+      "slug": "нейронка-монстр-вообще-без-цензуры-ре"
     }
   ]
 }

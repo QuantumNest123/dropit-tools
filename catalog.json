@@ -834,6 +834,18 @@
       "source": "github",
       "added": "2026-06-08",
       "slug": "pm-skills"
+    },
+    {
+      "name": "Hands-On-AI-Engineering",
+      "url": "https://github.com/Sumanth077/Hands-On-AI-Engineering",
+      "category": "agents",
+      "desc_ru": "Забираем большой сборник из 5️⃣0️⃣+ гайдов по созданию своих ИИ-агентов, RAG-систем, OCR-приложений и голосовых нейронок",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-09",
+      "slug": "hands-on-ai-engineering"
     }
   ]
 }

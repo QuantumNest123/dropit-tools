@@ -3,103 +3,185 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Каталог Дроп IT — инструменты, нейросети и скиллы</title>
-<meta name="description" content="Проверенные AI-инструменты, нейросети и скиллы из канала Дроп IT. Всё разложено по полочкам.">
-<meta property="og:title" content="Каталог Дроп IT">
-<meta property="og:description" content="Проверенные инструменты, нейросети и скиллы из канала Дроп IT.">
+<title>Каталог Дроп IT — хаб инструментов, нейросетей и скиллов</title>
+<meta name="description" content="Хаб проверенных AI-инструментов, нейросетей и скиллов из канала Дроп IT. Всё разложено по категориям, обновляется живьём.">
+<meta property="og:title" content="Каталог Дроп IT — хаб инструментов">
+<meta property="og:description" content="Проверенные инструменты, нейросети и скиллы из канала Дроп IT. По полочкам.">
 <meta property="og:image" content="assets/social-preview.png">
 <meta property="og:type" content="website">
 <link rel="icon" href="assets/dropit-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800&family=Onest:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap&subset=cyrillic,cyrillic-ext,latin" rel="stylesheet">
 <style>
   :root{
-    --bg:#0a0f0c; --bg2:#0e1512; --card:#111a15; --card-h:#16221c;
-    --line:#1d2c24; --green:#34d178; --green-d:#1f9d57; --green-soft:rgba(52,209,120,.12);
-    --txt:#e9f1ec; --muted:#8ba093; --muted2:#5f7268;
-    --shadow:0 1px 0 rgba(255,255,255,.03), 0 12px 30px -12px rgba(0,0,0,.6);
+    --bg:#080c0a; --bg2:#0c120e; --card:#101913; --card-h:#152019;
+    --line:#1b2a22; --line2:#243a2f;
+    --green:#9fe838; --green-2:#34d178; --green-d:#1f9d57; --green-soft:rgba(159,232,56,.13);
+    --txt:#eaf3ec; --muted:#90a698; --muted2:#5f7468;
+    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+    --disp:"Unbounded",-apple-system,BlinkMacSystemFont,sans-serif;
+    --body:"Onest",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
   html,body{overflow-x:hidden;max-width:100%}
   body{
-    margin:0; background:
-      radial-gradient(1200px 600px at 80% -10%, rgba(52,209,120,.08), transparent 60%),
-      var(--bg);
-    color:var(--txt);
-    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    margin:0; color:var(--txt); font-family:var(--body); font-size:16px; line-height:1.55;
     -webkit-font-smoothing:antialiased;
+    background:
+      /* верхний чёрный слой держит черноту под баннером и ПЛАВНО открывает зелёный фон ниже —
+         так стык чёрного баннера и зелёного фона размазан, без резкой полосы (фикс перехода) */
+      linear-gradient(180deg, var(--bg) 0, var(--bg) 215px, rgba(8,12,10,0) 470px),
+      radial-gradient(1100px 560px at 82% 6%, rgba(159,232,56,.10), transparent 58%),
+      radial-gradient(900px 500px at 8% 12%, rgba(52,209,120,.06), transparent 60%),
+      var(--bg);
   }
+  /* тонкая «сетка-блюпринт» поверх фона — атмосфера тех-хаба */
+  body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5;
+    background-image:
+      linear-gradient(rgba(159,232,56,.025) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(159,232,56,.025) 1px,transparent 1px);
+    background-size:46px 46px;
+    -webkit-mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 30%,transparent 75%);
+            mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 30%,transparent 75%);}
   a{color:inherit;text-decoration:none}
-  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 22px;position:relative;z-index:1}
 
-  header.top{border-bottom:1px solid var(--line);background:var(--bg)}
-  .hero-banner{position:relative;height:210px;overflow:hidden;isolation:isolate;
-    background:var(--bg)}
+  /* ─── HERO ─── */
+  header.top{position:relative}     /* border-bottom убран — он и давал резкую линию-полосу */
+  .hero-banner{position:relative;height:230px;overflow:hidden;isolation:isolate;background:var(--bg)}
   .hero-banner::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
-    background:radial-gradient(72% 52% at 50% -10%, rgba(52,209,120,.12), transparent 50%)}
+    background:radial-gradient(70% 54% at 50% -8%, rgba(159,232,56,.14), transparent 52%)}
+  /* видео-фон (wallpaper) — НЕ ТРОГАТЬ режим показа: квадрат вписывается contain+lighten */
   .hero-banner .hero-bg{position:absolute;inset:0;width:100%;height:100%;
-    object-fit:contain;object-position:center;z-index:1;
-    mix-blend-mode:lighten;opacity:1}
+    object-fit:contain;object-position:center;z-index:1;mix-blend-mode:lighten;opacity:1}
   .hero-banner::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
-    background:linear-gradient(180deg, transparent 55%, var(--bg) 100%)}
-  .hero-text{text-align:center;padding:8px 20px 40px;margin-top:-8px}
-  .hero-text h1{margin:0;font-size:36px;letter-spacing:-.8px;font-weight:850}
-  .hero-text .sub{color:var(--muted);font-size:15px;margin:11px auto 0;max-width:560px}
-  .chanbtn{display:inline-flex;align-items:center;gap:7px;margin-top:22px;
-    background:var(--green);color:#04130a;font-weight:700;font-size:14px;
-    padding:10px 20px;border-radius:999px;transition:.15s transform,.15s filter;
-    box-shadow:0 8px 24px -8px rgba(52,209,120,.55)}
-  .chanbtn:hover{transform:translateY(-1px);filter:brightness(1.07)}
+    background:linear-gradient(180deg, transparent 48%, var(--bg) 99%)}
+  .hero-text{text-align:center;padding:2px 22px 30px;margin-top:-14px;position:relative;z-index:3}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:3px;text-transform:uppercase;
+    color:var(--green);display:inline-flex;align-items:center;gap:9px;margin-bottom:14px}
+  .kicker::before,.kicker::after{content:"";width:26px;height:1px;background:linear-gradient(90deg,transparent,var(--green-d))}
+  .kicker::after{background:linear-gradient(90deg,var(--green-d),transparent)}
+  .hero-text h1{margin:0;font-family:var(--disp);font-size:46px;line-height:1.02;letter-spacing:-1px;font-weight:800}
+  .hero-text h1 .ac{color:var(--green)}
+  .hero-text .sub{color:var(--muted);font-size:15.5px;margin:15px auto 0;max-width:600px}
+  .chanbtn{display:inline-flex;align-items:center;gap:8px;margin-top:24px;
+    background:var(--green);color:#06140a;font-weight:700;font-size:14.5px;font-family:var(--body);
+    padding:11px 22px;border-radius:999px;transition:.16s transform,.16s box-shadow;
+    box-shadow:0 10px 30px -8px rgba(159,232,56,.5)}
+  .chanbtn:hover{transform:translateY(-2px);box-shadow:0 16px 38px -10px rgba(159,232,56,.65)}
 
-  .controls{position:sticky;top:0;z-index:5;background:rgba(10,15,12,.86);
-    backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:13px 0}
-  .controls .wrap{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
-  .search{flex:1;min-width:200px;position:relative}
-  .search input{width:100%;background:var(--card);border:1px solid var(--line);
-    color:var(--txt);padding:11px 14px 11px 40px;border-radius:11px;font-size:15px;outline:none;transition:.15s border}
+  /* ─── СТАТ-ПОЛОСА ─── */
+  .stats{display:flex;justify-content:center;gap:0;flex-wrap:wrap;margin:22px auto 4px;max-width:760px}
+  .stats .st{flex:1;min-width:130px;text-align:center;padding:6px 14px;position:relative}
+  .stats .st + .st::before{content:"";position:absolute;left:0;top:18%;height:64%;width:1px;background:var(--line2)}
+  .stats .st b{display:block;font-family:var(--mono);font-size:27px;font-weight:700;color:var(--txt);letter-spacing:-.5px}
+  .stats .st span{font-size:12.5px;color:var(--muted2);letter-spacing:.3px}
+
+  /* ─── CONTROLS ─── */
+  .controls{position:sticky;top:0;z-index:20;background:rgba(8,12,10,.82);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line);padding:13px 0;margin-top:22px}
+  .controls .wrap{display:flex;gap:11px;align-items:center;flex-wrap:wrap}
+  .search{flex:1;min-width:210px;position:relative}
+  .search input{width:100%;background:var(--card);border:1px solid var(--line);font-family:var(--body);
+    color:var(--txt);padding:11px 14px 11px 40px;border-radius:12px;font-size:15px;outline:none;transition:.15s border}
   .search input:focus{border-color:var(--green-d)}
   .search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.5}
-  .count{color:var(--muted2);font-size:13px;white-space:nowrap}
+  .sortbox{position:relative}
+  .sortbox select{appearance:none;-webkit-appearance:none;background:var(--card);border:1px solid var(--line);
+    color:var(--muted);font-family:var(--body);font-size:14px;padding:11px 34px 11px 14px;border-radius:12px;
+    cursor:pointer;outline:none;transition:.15s}
+  .sortbox select:hover{color:var(--txt);border-color:var(--green-d)}
+  .sortbox::after{content:"▾";position:absolute;right:13px;top:50%;transform:translateY(-50%);color:var(--muted2);pointer-events:none}
+  .count{color:var(--muted2);font-size:13px;font-family:var(--mono);white-space:nowrap}
 
-  .cats{display:flex;gap:8px;flex-wrap:wrap;padding:18px 0 4px}
-  .cats a{font-size:13px;color:var(--muted);background:var(--card);border:1px solid var(--line);
-    padding:6px 12px;border-radius:999px;transition:.15s}
-  .cats a:hover{color:var(--txt);border-color:var(--green-d)}
+  /* ─── КАТЕГОРИИ-ФИЛЬТРЫ ─── */
+  .cats{display:flex;gap:9px;flex-wrap:wrap;padding:20px 0 6px}
+  .cats button{font-family:var(--body);font-size:13.5px;color:var(--muted);background:var(--card);
+    border:1px solid var(--line);padding:7px 13px;border-radius:999px;cursor:pointer;
+    display:inline-flex;align-items:center;gap:7px;transition:.15s}
+  .cats button:hover{color:var(--txt);border-color:var(--line2)}
+  .cats button .c{font-family:var(--mono);font-size:11px;color:var(--muted2);
+    background:var(--bg2);border-radius:999px;padding:1px 7px;transition:.15s}
+  .cats button.on{color:#06140a;background:var(--green);border-color:var(--green);font-weight:600}
+  .cats button.on .c{color:#06140a;background:rgba(0,0,0,.14)}
 
-  section.cat{padding:26px 0 6px}
-  section.cat h2{font-size:18px;margin:0 0 14px;font-weight:750;display:flex;align-items:center;gap:8px}
-  section.cat h2 .n{font-size:13px;color:var(--muted2);font-weight:600}
+  /* ─── СЕКЦИИ / ГРИД ─── */
+  section.cat{padding:24px 0 4px}
+  section.cat h2{font-family:var(--disp);font-size:19px;margin:0 0 16px;font-weight:700;
+    display:flex;align-items:center;gap:10px;letter-spacing:-.3px}
+  section.cat h2 .n{font-family:var(--mono);font-size:12px;color:var(--green);background:var(--green-soft);
+    border-radius:999px;padding:2px 9px;font-weight:500}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(296px,1fr));gap:15px}
 
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px}
-  .tool{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:16px 17px;
-    display:flex;flex-direction:column;gap:9px;transition:.16s transform,.16s border-color,.16s background;
-    scroll-margin-top:90px}
-  .tool:hover{transform:translateY(-2px);border-color:var(--green-d);background:var(--card-h)}
-  .tool.flash{border-color:var(--green);box-shadow:0 0 0 2px var(--green-soft),0 0 30px -6px rgba(52,209,120,.5)}
-  .tool .h{display:flex;align-items:center;justify-content:space-between;gap:10px}
-  .tool .name{font-weight:730;font-size:16.5px;letter-spacing:-.2px}
-  .tool .me{font-size:10.5px;font-weight:700;color:var(--green);border:1px solid var(--green-d);
+  .tool{position:relative;background:linear-gradient(180deg,var(--card),var(--bg2));
+    border:1px solid var(--line);border-radius:16px;padding:17px 18px 16px;
+    display:flex;flex-direction:column;gap:10px;overflow:hidden;
+    transition:.17s transform,.17s border-color,.17s box-shadow;scroll-margin-top:96px}
+  .tool::after{content:"";position:absolute;inset:0;border-radius:16px;pointer-events:none;
+    background:radial-gradient(120% 80% at 0% 0%, rgba(159,232,56,.07), transparent 42%);opacity:0;transition:.17s}
+  .tool:hover{transform:translateY(-3px);border-color:var(--green-d);
+    box-shadow:0 18px 40px -18px rgba(0,0,0,.7),0 0 0 1px rgba(159,232,56,.12)}
+  .tool:hover::after{opacity:1}
+  .tool.flash{border-color:var(--green);box-shadow:0 0 0 2px var(--green-soft),0 0 40px -6px rgba(159,232,56,.55)}
+  .tool .top{display:flex;align-items:flex-start;gap:11px}
+  .tool .ava{flex-shrink:0;width:38px;height:38px;border-radius:10px;display:grid;place-items:center;
+    font-family:var(--disp);font-weight:700;font-size:17px;color:var(--green);
+    background:var(--green-soft);border:1px solid var(--line2);text-transform:uppercase}
+  .tool .hd{flex:1;min-width:0}
+  .tool .name{font-weight:600;font-size:16.5px;letter-spacing:-.2px;display:block;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .tool .src{font-family:var(--mono);font-size:11px;color:var(--muted2);margin-top:2px;display:block}
+  .tool .badges{display:flex;gap:6px;align-items:center;flex-shrink:0;flex-wrap:wrap;justify-content:flex-end}
+  .tool .me{font-size:10.5px;font-weight:600;color:var(--green);border:1px solid var(--green-d);
     border-radius:999px;padding:2px 8px;white-space:nowrap}
-  .tool .new{font-size:10px;font-weight:800;letter-spacing:.5px;color:#06120c;background:var(--green);
-    border-radius:999px;padding:2px 7px;white-space:nowrap}
-  .tool .badges{display:flex;gap:6px;align-items:center;flex-shrink:0}
-  .tool .desc{color:var(--muted);font-size:14px;flex:1}
-  .tool .meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:12px;color:var(--muted2);margin-top:1px}
-  .tool .meta .tag{background:var(--bg2);border:1px solid var(--line);border-radius:7px;padding:2px 7px}
-  .tool .go{margin-top:6px;display:inline-flex;align-items:center;gap:6px;align-self:flex-start;
-    color:var(--green);font-weight:700;font-size:13.5px}
-  .tool .go:hover{text-decoration:underline}
-  .empty{color:var(--muted2);padding:40px 0;text-align:center}
+  .tool .new{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:.5px;color:#06120c;
+    background:var(--green);border-radius:999px;padding:2px 7px;white-space:nowrap}
+  .tool .desc{color:var(--muted);font-size:14px;line-height:1.5;flex:1}
+  .tool .meta{display:flex;align-items:center;gap:7px;flex-wrap:wrap;font-size:12px;
+    color:var(--muted2);font-family:var(--mono)}
+  .tool .meta .tag{background:var(--bg2);border:1px solid var(--line);border-radius:7px;padding:2px 8px}
+  .tool .meta .tag.star{color:var(--green-2)}
+  .tool .go{margin-top:4px;display:inline-flex;align-items:center;gap:6px;align-self:flex-start;
+    color:var(--green);font-weight:600;font-size:13.5px}
+  .tool:hover .go{gap:9px}
+  .empty{color:var(--muted2);padding:54px 0;text-align:center}
 
-  footer{border-top:1px solid var(--line);margin-top:40px;padding:30px 0 50px;color:var(--muted2);font-size:13px}
+  footer{border-top:1px solid var(--line);margin-top:46px;padding:34px 0 56px;color:var(--muted2);font-size:13.5px}
   footer a{color:var(--green)}
+  footer .fl{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+  footer .live{font-family:var(--mono);font-size:12px;display:inline-flex;align-items:center;gap:7px}
+  footer .live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green);
+    box-shadow:0 0 0 0 rgba(159,232,56,.6);animation:pulse 2.4s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(159,232,56,.5)}70%{box-shadow:0 0 0 8px rgba(159,232,56,0)}100%{box-shadow:0 0 0 0 rgba(159,232,56,0)}}
+
+  /* появление карточек */
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .tool{animation:rise .4s both}
+
+  /* ─── АДАПТИВ: телефон + планшет (iPad 1024 включительно) ─── */
+  @media(max-width:1024px){ .wrap{max-width:920px} .hero-text h1{font-size:40px} }
+  @media(max-width:768px){
+    .grid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+    .hero-banner{height:200px}
+    .hero-text h1{font-size:34px}
+    .stats{max-width:560px}
+  }
   @media(max-width:560px){
     .grid{grid-template-columns:1fr}
-    .hero-banner{height:175px}
-    .hero-text{padding:6px 18px 32px;margin-top:-6px}
-    .hero-text h1{font-size:28px}
+    .hero-banner{height:172px}
+    .hero-text{padding:0 16px 26px;margin-top:-10px}
+    .hero-text h1{font-size:27px}
     .hero-text .sub{font-size:14px}
-    .chanbtn{margin-top:18px}
+    .kicker{font-size:11px;letter-spacing:2px}
+    .stats .st b{font-size:23px}
+    .controls .wrap{gap:9px}
+    .search{min-width:100%;order:1}
+    .sortbox{order:2}.count{order:3;margin-left:auto}
   }
+  @media(prefers-reduced-motion:reduce){ .tool{animation:none} body::before{opacity:.3} }
 </style>
 </head>
 <body>
@@ -111,19 +193,29 @@
     </video>
   </div>
   <div class="wrap hero-text">
-    <h1 id="title">Каталог</h1>
+    <div class="kicker">Дроп IT · Хаб</div>
+    <h1 id="title">Каталог <span class="ac">инструментов</span></h1>
     <div class="sub" id="subtitle"></div>
+    <div class="stats" id="stats"></div>
     <a class="chanbtn" id="chan" href="https://t.me/aidrop_hq" target="_blank" rel="noopener">
-      Наш канал →
+      Наш канал в Telegram →
     </a>
   </div>
 </header>
 
 <div class="controls"><div class="wrap">
   <div class="search">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8ba093" stroke-width="2">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#90a698" stroke-width="2">
       <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-    <input id="q" type="search" placeholder="Поиск: парсинг, нейросеть, агент…" autocomplete="off">
+    <input id="q" type="search" placeholder="Поиск: парсинг, нейросеть, агент, скилл…" autocomplete="off">
+  </div>
+  <div class="sortbox">
+    <select id="sort">
+      <option value="default">Сначала по разделам</option>
+      <option value="new">Сначала новые</option>
+      <option value="stars">По популярности ★</option>
+      <option value="az">По алфавиту А–Я</option>
+    </select>
   </div>
   <span class="count" id="count"></span>
 </div></div>
@@ -134,11 +226,14 @@
   <div class="empty" id="empty" style="display:none">Ничего не нашлось — попробуй другое слово.</div>
 </div>
 
-<footer><div class="wrap">
-  Собираем сюда инструменты, нейросети и скиллы, о которых рассказываем в
-  <a href="https://t.me/aidrop_hq" target="_blank" rel="noopener">@aidrop_hq</a>.
-  Всё проверено руками. Нашёл крутое — пиши в канал.
-</div></footer>
+<footer><div class="wrap"><div class="fl">
+  <div>
+    Собираем сюда инструменты, нейросети и скиллы из
+    <a href="https://t.me/aidrop_hq" target="_blank" rel="noopener">@aidrop_hq</a>.
+    Всё проверено руками. Нашёл крутое — пиши в канал.
+  </div>
+  <div class="live">обновляется живьём</div>
+</div></div></footer>
 
 <script>
 const esc = s => (s||"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -147,71 +242,144 @@ function slugify(name){
     .replace(/[\s/]+/g,'-').replace(/[^a-z0-9а-яё-]/g,'')
     .replace(/-+/g,'-').replace(/^-|-$/g,'');
 }
+function plural(n,a,b,c){const m=n%100,d=n%10;return m>=11&&m<=14?c:d===1?a:d>=2&&d<=4?b:c;}
+
 let DATA={categories:[],tools:[]};
-let NEW_SET=new Set();   // slug'и последних ~6 добавленных тулз → бейдж «NEW»
+let NEW_SET=new Set();
+let CUR_CAT="all";          // активная категория-фильтр
+let CUR_SORT="default";
 const NEW_COUNT=6;
+
 function computeNew(tools){
-  // новейшие по дате added (внутри одной даты — кто позже в файле), берём последние NEW_COUNT
   return new Set([...(tools||[])]
     .map((t,i)=>({s:(t.slug||slugify(t.name)), k:(t.added||'')+String(i).padStart(4,'0')}))
     .sort((a,b)=>a.k<b.k?-1:1)
     .slice(-NEW_COUNT).map(x=>x.s));
 }
+// порядковый «вес новизны» — чем позже добавлен, тем больше
+function newRank(tools){
+  const m=new Map();
+  [...tools].map((t,i)=>({s:(t.slug||slugify(t.name)),k:(t.added||'')+String(i).padStart(4,'0')}))
+    .sort((a,b)=>a.k<b.k?-1:1).forEach((x,i)=>m.set(x.s,i));
+  return m;
+}
+let NEW_RANK=new Map();
+
+const SRC_LABEL={github:"GitHub",site:"сайт",huggingface:"Hugging Face","app store":"App Store",
+  npm:"npm",pypi:"PyPI","google play":"Google Play"};
 
 function card(t){
   const slug = t.slug || slugify(t.name);
-  const stars = t.stars ? `<span class="tag">★ ${Number(t.stars).toLocaleString('ru')}</span>` : '';
+  const stars = t.stars ? `<span class="tag star">★ ${Number(t.stars).toLocaleString('ru')}</span>` : '';
   const lang = t.lang ? `<span class="tag">${esc(t.lang)}</span>` : '';
+  const src = t.source ? (SRC_LABEL[String(t.source).toLowerCase()]||esc(t.source)) : '';
   const me = t.audience==='me' ? `<span class="me">наш инструмент</span>` : '';
   const isNew = NEW_SET.has(slug) ? `<span class="new">NEW</span>` : '';
-  return `<a class="tool" id="${slug}" href="${esc(t.url)}" target="_blank" rel="noopener" data-s="${esc((t.name+' '+(t.desc_ru||'')+' '+(t.lang||'')).toLowerCase())}">
-    <div class="h"><span class="name">${esc(t.name)}</span><span class="badges">${isNew}${me}</span></div>
+  const init = esc((t.name||'?').trim().charAt(0));
+  return `<a class="tool" id="${slug}" href="${esc(t.url)}" target="_blank" rel="noopener">
+    <div class="top">
+      <div class="ava">${init}</div>
+      <div class="hd"><span class="name">${esc(t.name)}</span>${src?`<span class="src">${src}</span>`:''}</div>
+      <span class="badges">${isNew}${me}</span>
+    </div>
     <div class="desc">${esc(t.desc_ru||'')}</div>
     <div class="meta">${lang}${stars}</div>
     <span class="go">Открыть источник →</span>
   </a>`;
 }
-function render(filter=""){
-  const f = filter.trim().toLowerCase();
-  const byCat = {};
-  DATA.tools.forEach(t=>{ (byCat[t.category]=byCat[t.category]||[]).push(t); });
+
+function matches(t,f){ return !f || (t.name+' '+(t.desc_ru||'')+' '+(t.lang||'')+' '+(t.source||'')).toLowerCase().includes(f); }
+function sortTools(arr){
+  const a=[...arr];
+  if(CUR_SORT==='stars') a.sort((x,y)=>(y.stars||0)-(x.stars||0));
+  else if(CUR_SORT==='az') a.sort((x,y)=>x.name.localeCompare(y.name,'ru'));
+  else if(CUR_SORT==='new') a.sort((x,y)=>(NEW_RANK.get(y.slug||slugify(y.name))||0)-(NEW_RANK.get(x.slug||slugify(x.name))||0));
+  return a;
+}
+
+function render(){
+  const f=(document.getElementById('q').value||"").trim().toLowerCase();
   let html="", shown=0;
-  DATA.categories.forEach(c=>{
-    let tools = (byCat[c.key]||[]);
-    if(f) tools = tools.filter(t => (t.name+' '+(t.desc_ru||'')+' '+(t.lang||'')).toLowerCase().includes(f));
-    if(!tools.length) return;
-    shown += tools.length;
-    html += `<section class="cat" id="cat-${c.key}"><h2>${esc(c.name)} <span class="n">${tools.length}</span></h2>
-      <div class="grid">${tools.map(card).join("")}</div></section>`;
-  });
-  document.getElementById('list').innerHTML = html;
-  document.getElementById('empty').style.display = shown? 'none':'block';
-  document.getElementById('count').textContent = `${shown} ${plural(shown,'инструмент','инструмента','инструментов')}`;
+  const flat = CUR_CAT!=="all" || CUR_SORT!=="default" || !!f;  // плоский грид, не по секциям
+
+  if(flat){
+    let tools=DATA.tools.filter(t=>(CUR_CAT==="all"||t.category===CUR_CAT) && matches(t,f));
+    tools=sortTools(tools);
+    shown=tools.length;
+    html = shown ? `<section class="cat"><div class="grid">${tools.map((t,i)=>card(t).replace('class="tool"',`class="tool" style="animation-delay:${Math.min(i*22,300)}ms"`)).join("")}</div></section>` : "";
+  } else {
+    const byCat={};
+    DATA.tools.forEach(t=>{(byCat[t.category]=byCat[t.category]||[]).push(t);});
+    DATA.categories.forEach(c=>{
+      let tools=(byCat[c.key]||[]).filter(t=>matches(t,f));
+      if(!tools.length) return;
+      shown+=tools.length;
+      html+=`<section class="cat" id="cat-${c.key}"><h2>${esc(c.name)} <span class="n">${tools.length}</span></h2>
+        <div class="grid">${tools.map((t,i)=>card(t).replace('class="tool"',`class="tool" style="animation-delay:${Math.min(i*18,260)}ms"`)).join("")}</div></section>`;
+    });
+  }
+  document.getElementById('list').innerHTML=html;
+  document.getElementById('empty').style.display=shown?'none':'block';
+  document.getElementById('count').textContent=`${shown} ${plural(shown,'инструмент','инструмента','инструментов')}`;
 }
-function plural(n,a,b,c){const m=n%100,d=n%10;return m>=11&&m<=14?c:d===1?a:d>=2&&d<=4?b:c;}
+
+function buildStats(){
+  const tools=DATA.tools||[];
+  const totalStars=tools.reduce((s,t)=>s+(Number(t.stars)||0),0);
+  const fmtK=n=>n>=1e6?(n/1e6).toFixed(1).replace('.0','')+'M':n>=1e3?Math.round(n/1e3)+'K':String(n);
+  const cats=(DATA.categories||[]).length;
+  document.getElementById('stats').innerHTML=
+    `<div class="st"><b>${tools.length}</b><span>инструментов</span></div>
+     <div class="st"><b>${cats}</b><span>разделов</span></div>
+     <div class="st"><b>${fmtK(totalStars)}</b><span>★ суммарно</span></div>`;
+}
+
 function buildCats(){
-  document.getElementById('cats').innerHTML = DATA.categories
-    .map(c=>`<a href="#cat-${c.key}">${esc(c.name)}</a>`).join("");
+  const byCat={};
+  DATA.tools.forEach(t=>{byCat[t.category]=(byCat[t.category]||0)+1;});
+  const all=DATA.tools.length;
+  let html=`<button data-cat="all" class="on">Все <span class="c">${all}</span></button>`;
+  DATA.categories.forEach(c=>{
+    const n=byCat[c.key]||0; if(!n) return;
+    html+=`<button data-cat="${c.key}">${esc(c.name)} <span class="c">${n}</span></button>`;
+  });
+  const nav=document.getElementById('cats');
+  nav.innerHTML=html;
+  nav.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{
+    CUR_CAT=b.dataset.cat;
+    nav.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+    render();
+    document.querySelector('.controls').scrollIntoView({behavior:'smooth',block:'start'});
+  }));
 }
+
 function flashHash(){
-  const h = decodeURIComponent(location.hash.replace('#',''));
+  const h=decodeURIComponent(location.hash.replace('#',''));
   if(!h) return;
-  const el = document.getElementById(h);
-  if(el){ el.scrollIntoView({block:'center'}); el.classList.add('flash');
-    setTimeout(()=>el.classList.remove('flash'),2600); }
+  // deep-link на конкретный инструмент (#slug) — бот ведёт сюда из постов
+  if(CUR_CAT!=="all"||CUR_SORT!=="default"){CUR_CAT="all";CUR_SORT="default";
+    document.getElementById('sort').value="default";buildCats();render();}
+  const el=document.getElementById(h);
+  if(el){el.scrollIntoView({block:'center'});el.classList.add('flash');
+    setTimeout(()=>el.classList.remove('flash'),2600);}
 }
+
 fetch('catalog.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   DATA=d;
-  NEW_SET=computeNew(d.tools);
-  document.getElementById('title').textContent = d.title || 'Каталог';
+  DATA.tools.forEach(t=>{if(!t.slug)t.slug=slugify(t.name);});
+  NEW_SET=computeNew(d.tools); NEW_RANK=newRank(d.tools);
+  document.getElementById('title').innerHTML = d.title && d.title!=='Каталог'
+    ? esc(d.title) : 'Каталог <span class="ac">инструментов</span>';
   document.getElementById('subtitle').textContent = d.subtitle || '';
-  if(d.channel) document.getElementById('chan').href = d.channel;
-  buildCats(); render();
-  setTimeout(flashHash,80);
-}).catch(e=>{ document.getElementById('list').innerHTML =
+  if(d.channel){document.getElementById('chan').href=d.channel;}
+  buildStats(); buildCats(); render();
+  setTimeout(flashHash,90);
+}).catch(e=>{ document.getElementById('list').innerHTML=
   '<div class="empty">Не удалось загрузить каталог. Обнови страницу.</div>'; });
-document.getElementById('q').addEventListener('input', e=>render(e.target.value));
-window.addEventListener('hashchange', flashHash);
+
+document.getElementById('q').addEventListener('input',render);
+document.getElementById('sort').addEventListener('change',e=>{CUR_SORT=e.target.value;render();});
+window.addEventListener('hashchange',flashHash);
 </script>
 </body>
 </html>

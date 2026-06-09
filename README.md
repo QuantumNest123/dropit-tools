@@ -1,10 +1,10 @@
 # 🟢 Каталог
 
-[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-74-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
+[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-78-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
 
 > Инструменты, нейросети и скиллы, о которых рассказываем в канале. Всё проверено и разложено по полочкам.
 >
-> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **74** инструментов · ⭐ — чем пользуемся сами
+> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **78** инструментов · ⭐ — чем пользуемся сами
 
 **Разделы:** [🧠 ИИ для текста и кода](#ии-для-текста-и-кода) · [🎨 ИИ для картинок и видео](#ии-для-картинок-и-видео) · [👥 AI-агенты и автоматизация](#ai-агенты-и-автоматизация) · [🕷 Парсинг и сбор данных](#парсинг-и-сбор-данных) · [🛠 Инструменты разработчика](#инструменты-разработчика) · [✨ Навыки и промпты](#навыки-и-промпты) · [📦 Разное полезное](#разное-полезное)
 
@@ -30,8 +30,11 @@
 - **[rembg](https://github.com/danielgatis/rembg)** ⭐ — Удаляет фон с картинки одной командой. Используем для чистых фото товаров. · `Python` · ★ 23.2k
 - **[Remotion](https://github.com/remotion-dev/remotion)** ⭐ — Видео из кода на React: пишешь компоненты — получаешь MP4 с анимацией, моушен-графикой, субтитрами. Claude Code генерит такие ролики прямо из промпта. · `TypeScript` · ★ 21k
 - **[cosmos](https://github.com/NVIDIA/cosmos)** — NVIDIA Cosmos — открытая платформа world-foundation-моделей для физического ИИ и генерации мира/видео. · `Jupyter Notebook` · ★ 9.3k
+- **[AI-Youtube-Shorts-Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator)** — Открытый аналог OpusClip: LLM-детект хайлайтов + whisper + авто-вертикаль. Длинное YouTube-видео → вирусные шортсы. · `Python` · ★ 5k
+- **[pycaps](https://github.com/francozanardi/pycaps)** ⭐ — Анимированные субтитры по словам (CSS-шаблоны, эмодзи, эффекты) для шортсов/рилсов. Whisper для тайм-кодов. Уровень субтитров OpusClip. · `Python` · ★ 900
 - **[ideogram4](https://github.com/ideogram-oss/ideogram4)** — Ideogram 4.0 — open-weight генератор картинок, силён в тексте и типографике внутри изображения (постеры, логотипы, вывески). Веса на Hugging Face, можно гонять локально. · `Python` · ★ 652
 - **[Bonsai-Image-Demo](https://github.com/PrismML-Eng/Bonsai-Image-Demo)** ⭐ — Bonsai Image 4B — локальный генератор картинок, влезает на Mac и даже iPhone: 1-bit версия всего 0.93 ГБ (×8 меньше FLUX), Apache-2.0, веса на HF, есть WebGPU-демо. ~95% качества FLUX.2 Klein при копеечном размере. · `PowerShell` · ★ 399
+- **[smart-reframe](https://github.com/gauravzazz/smart-reframe)** ⭐ — Авто-перекадрирование 16:9 → 9:16 с трекингом активного спикера (лицо + звук), плавная «виртуальная камера». Для шортсов из интервью. · `Python` · ★ 150
 - **[OpusClip](https://opus.pro)** — Сам нарезает длинные видео на вирусные вертикальные шортсы с субтитрами. Платный — но похожее мы собираем бесплатно на yt-dlp + whisper + ffmpeg.
 
 ## 👥 AI-агенты и автоматизация
@@ -94,6 +97,7 @@
 - **[GSAP Skills](https://github.com/greensock/gsap-skills)** ⭐ — Официальные AI-навыки для GSAP: учат ИИ-агентов правильно делать анимации. · ★ 7.7k
 - **[defending-code-reference-harness](https://github.com/anthropics/defending-code-reference-harness)** ⭐ — Скиллы Anthropic для безопасности: threat modeling, сканирование, триаж уязвимостей — защита кода агентами. · `Python` · ★ 1.8k
 - **[DeepMind Science Skills](https://github.com/google-deepmind/science-skills)** — Официальные навыки от Google DeepMind для научных ИИ-задач. · `Python` · ★ 1.4k
+- **[clipify](https://github.com/louisedesadeleer/clipify)** ⭐ — Скилл для Claude Code: находит сильные моменты в видео, режет на шортсы, reframe 9:16 с паном за спикером и opus-субтитрами. · `Python` · ★ 200
 
 ## 📦 Разное полезное
 

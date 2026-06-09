@@ -894,6 +894,54 @@
       "source": "web",
       "added": "2026-06-09",
       "slug": "opusclip"
+    },
+    {
+      "name": "clipify",
+      "url": "https://github.com/louisedesadeleer/clipify",
+      "category": "skills",
+      "desc_ru": "Скилл для Claude Code: находит сильные моменты в видео, режет на шортсы, reframe 9:16 с паном за спикером и opus-субтитрами.",
+      "audience": "me",
+      "stars": 200,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-09",
+      "slug": "clipify"
+    },
+    {
+      "name": "smart-reframe",
+      "url": "https://github.com/gauravzazz/smart-reframe",
+      "category": "ai-image",
+      "desc_ru": "Авто-перекадрирование 16:9 → 9:16 с трекингом активного спикера (лицо + звук), плавная «виртуальная камера». Для шортсов из интервью.",
+      "audience": "me",
+      "stars": 150,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-09",
+      "slug": "smart-reframe"
+    },
+    {
+      "name": "pycaps",
+      "url": "https://github.com/francozanardi/pycaps",
+      "category": "ai-image",
+      "desc_ru": "Анимированные субтитры по словам (CSS-шаблоны, эмодзи, эффекты) для шортсов/рилсов. Whisper для тайм-кодов. Уровень субтитров OpusClip.",
+      "audience": "me",
+      "stars": 900,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-09",
+      "slug": "pycaps"
+    },
+    {
+      "name": "AI-Youtube-Shorts-Generator",
+      "url": "https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator",
+      "category": "ai-image",
+      "desc_ru": "Открытый аналог OpusClip: LLM-детект хайлайтов + whisper + авто-вертикаль. Длинное YouTube-видео → вирусные шортсы.",
+      "audience": "public",
+      "stars": 5000,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-09",
+      "slug": "ai-youtube-shorts-generator"
     }
   ]
 }

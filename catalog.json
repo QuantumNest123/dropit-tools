@@ -978,6 +978,18 @@
       "source": "chrome web store",
       "added": "2026-06-10",
       "slug": "узнаём-промпт-для-генерации-любой-картин"
+    },
+    {
+      "name": "container",
+      "url": "https://github.com/apple/container",
+      "category": "dev-tools",
+      "desc_ru": "apple/container — A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple",
+      "audience": "public",
+      "stars": 28264,
+      "lang": "Swift",
+      "source": "github",
+      "added": "2026-06-10",
+      "slug": "container"
     }
   ]
 }

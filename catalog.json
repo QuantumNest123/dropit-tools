@@ -954,6 +954,18 @@
       "source": "hugging face",
       "added": "2026-06-10",
       "slug": "нейронка-монстр-вообще-без-цензуры-ре"
+    },
+    {
+      "name": "numpy",
+      "url": "https://github.com/numpy/numpy",
+      "category": "agents",
+      "desc_ru": "[Перевод] Claude против краевых случаев: как LLM-агент нашёл баги в NumPy и других Python-библиотеках",
+      "audience": "public",
+      "stars": 32167,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-10",
+      "slug": "numpy"
     }
   ]
 }

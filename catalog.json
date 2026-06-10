@@ -966,6 +966,18 @@
       "source": "github",
       "added": "2026-06-10",
       "slug": "numpy"
+    },
+    {
+      "name": "Узнаём промпт для генерации любой картин",
+      "url": "https://chromewebstore.google.com/detail/ImageToPrompt/pgabcjhpgdcgbflabemecpficpknnpfn",
+      "category": "ai-image",
+      "desc_ru": "Узнаём промпт для генерации любой картинки — нашли расширение для браузера, которое анализирует изображение и выдаёт зап",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "chrome web store",
+      "added": "2026-06-10",
+      "slug": "узнаём-промпт-для-генерации-любой-картин"
     }
   ]
 }

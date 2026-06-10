@@ -990,6 +990,18 @@
       "source": "github",
       "added": "2026-06-10",
       "slug": "container"
+    },
+    {
+      "name": "answer",
+      "url": "https://github.com/apache/answer",
+      "category": "dev-tools",
+      "desc_ru": "Fable won’t answer basic biology questions",
+      "audience": "public",
+      "stars": 15544,
+      "lang": "Go",
+      "source": "github",
+      "added": "2026-06-10",
+      "slug": "answer"
     }
   ]
 }

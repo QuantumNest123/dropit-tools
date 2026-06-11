@@ -1002,6 +1002,18 @@
       "source": "github",
       "added": "2026-06-10",
       "slug": "answer"
+    },
+    {
+      "name": "2606.11289",
+      "url": "https://huggingface.co/papers/2606.11289",
+      "category": "ai-image",
+      "desc_ru": "i1: A Simple and Fully Open Recipe for Strong Text-to-Image Models",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "hugging face",
+      "added": "2026-06-11",
+      "slug": "260611289"
     }
   ]
 }

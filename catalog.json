@@ -1014,6 +1014,18 @@
       "source": "hugging face",
       "added": "2026-06-11",
       "slug": "260611289"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://github.com/lencx/ChatGPT",
+      "category": "ai-text",
+      "desc_ru": "Халява: OpenAI раздает API-кредиты на 5️⃣0️⃣ 0️⃣0️⃣0️⃣ баксов, чтобы свободно юзать все модели ChatGPT.",
+      "audience": "public",
+      "stars": 54378,
+      "lang": "Rust",
+      "source": "github",
+      "added": "2026-06-11",
+      "slug": "chatgpt"
     }
   ]
 }

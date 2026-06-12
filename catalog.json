@@ -1111,16 +1111,16 @@
       "added": "2026-06-12"
     },
     {
-      "name": "2606.13662",
+      "name": "EurekAgent",
       "url": "https://huggingface.co/papers/2606.13662",
       "category": "agents",
-      "desc_ru": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "desc_ru": "Фреймворк для автономных научных открытий: ИИ-агент сам проектирует среду, ставит эксперименты и анализирует результаты.",
       "audience": "public",
       "stars": 0,
       "lang": "",
       "source": "hugging face",
       "added": "2026-06-12",
-      "slug": "260613662"
+      "slug": "eurekagent"
     }
   ]
 }

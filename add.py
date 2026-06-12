@@ -158,6 +158,13 @@ def main():
         print(f"⚠️  Категория «{entry['category']}» не из списка {sorted(valid_cats)} — ставлю other.")
         entry["category"] = "other"
 
+    if re.match(r'^[\d.]+$', entry["name"]):
+        print(f"❌ Числовое имя «{entry['name']}» — нужно человеческое название (--name 'Имя').")
+        sys.exit(1)
+    if entry.get("desc_ru") and not re.search(r'[а-яА-ЯёЁ]', entry["desc_ru"]):
+        print(f"⚠️  Описание без кириллицы — подставляю пустое (допишешь руками).")
+        entry["desc_ru"] = ""
+
     if existing:
         data["tools"][data["tools"].index(existing)] = entry
         action = "обновлён"

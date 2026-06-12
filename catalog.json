@@ -1109,6 +1109,18 @@
       "lang": "1C Enterprise",
       "source": "github",
       "added": "2026-06-12"
+    },
+    {
+      "name": "2606.13662",
+      "url": "https://huggingface.co/papers/2606.13662",
+      "category": "agents",
+      "desc_ru": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "hugging face",
+      "added": "2026-06-12",
+      "slug": "260613662"
     }
   ]
 }

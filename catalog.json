@@ -1086,6 +1086,18 @@
       "source": "hugging face",
       "added": "2026-06-12",
       "slug": "260613679"
+    },
+    {
+      "name": "2606.09426",
+      "url": "https://huggingface.co/papers/2606.09426",
+      "category": "agents",
+      "desc_ru": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "hugging face",
+      "added": "2026-06-12",
+      "slug": "260609426"
     }
   ]
 }

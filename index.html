@@ -172,22 +172,57 @@
   /* ─── АДАПТИВ: телефон + планшет (iPad 1024 включительно) ─── */
   @media(max-width:1024px){ .wrap{max-width:920px} .hero-text h1{font-size:40px} }
   @media(max-width:768px){
-    .grid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+    .grid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
     .hero-banner{height:200px}
     .hero-text h1{font-size:34px}
     .stats{max-width:560px}
+    /* категории: горизонтальный скролл вместо переноса */
+    .cats{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+      scrollbar-width:none;padding:16px 0 8px;gap:8px}
+    .cats::-webkit-scrollbar{display:none}
+    .cats button{flex-shrink:0;font-size:13px;padding:6px 12px}
   }
   @media(max-width:560px){
-    .grid{grid-template-columns:1fr}
-    .hero-banner{height:172px}
-    .hero-text{padding:0 16px 26px;margin-top:-10px}
-    .hero-text h1{font-size:27px}
-    .hero-text .sub{font-size:14px}
-    .kicker{font-size:11px;letter-spacing:2px}
-    .stats .st b{font-size:23px}
-    .controls .wrap{gap:9px}
+    .wrap{padding:0 14px}
+    .grid{grid-template-columns:1fr;gap:10px}
+    .hero-banner{height:150px}
+    .hero-text{padding:0 12px 20px;margin-top:-8px}
+    .hero-text h1{font-size:24px;letter-spacing:-.5px}
+    .hero-text .sub{font-size:13px;margin-top:10px}
+    .kicker{font-size:10px;letter-spacing:2px}
+    .chanbtn{padding:9px 18px;font-size:13px}
+    .stats .st b{font-size:21px}
+    .stats .st span{font-size:11px}
+    .controls .wrap{gap:8px}
     .search{min-width:100%;order:1}
+    .search input{font-size:15px;padding:10px 14px 10px 38px}
     .sortbox{order:2}.count{order:3;margin-left:auto}
+    /* карточки: компактнее, удобнее для пальца */
+    .tool{padding:14px 14px 13px;border-radius:14px;gap:8px}
+    .tool .ava{width:34px;height:34px;border-radius:8px;font-size:16px}
+    .tool .name{font-size:15px}
+    .tool .src{font-size:10px}
+    .tool .desc{font-size:13px;line-height:1.45}
+    .tool .meta{font-size:11px;gap:5px}
+    .tool .meta .tag{padding:2px 6px;font-size:11px}
+    .tool .acts{gap:8px;margin-top:4px}
+    .tool .go{font-size:12.5px}
+    .tool .go.dl{padding:5px 12px;font-size:12px;border-radius:7px}
+    .tool .go.sec{font-size:11.5px}
+    /* секции */
+    section.cat h2{font-size:17px}
+    section.cat h2 .n{font-size:11px;padding:1px 7px}
+    footer{padding:24px 0 40px;font-size:12.5px}
+  }
+  /* совсем маленькие экраны (SE, мини) */
+  @media(max-width:380px){
+    .hero-text h1{font-size:21px}
+    .grid{gap:8px}
+    .tool{padding:12px 12px 11px}
+    .tool .name{font-size:14px}
+    .stats{gap:0}
+    .stats .st{padding:4px 8px}
+    .stats .st b{font-size:19px}
   }
   @media(prefers-reduced-motion:reduce){ .tool{animation:none} body::before{opacity:.3} }
 </style>

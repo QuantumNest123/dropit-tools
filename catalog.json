@@ -676,9 +676,9 @@
       "name": "hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "category": "agents",
-      "desc_ru": "Hermes — крупный открытый ИИ-агент (★180k+): растёт вместе с тобой, работает в изолированных средах.",
+      "desc_ru": "Самообучающийся AI-агент от Nous Research — сам создаёт скиллы, работает через Telegram/Discord/Slack, 200+ моделей на выбор, запускается на дешёвом VPS.",
       "audience": "public",
-      "stars": 181839,
+      "stars": 191878,
       "lang": "Python",
       "source": "github",
       "added": "2026-06-05"

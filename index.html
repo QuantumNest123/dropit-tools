@@ -430,6 +430,8 @@ fetch('catalog.json?v='+Date.now()).then(r=>r.json()).then(d=>{
 document.getElementById('q').addEventListener('input',render);
 document.getElementById('sort').addEventListener('change',e=>{CUR_SORT=e.target.value;render();});
 window.addEventListener('hashchange',flashHash);
+// аналитика — невидимый пиксель на наш трекер (посетитель не видит, ты видишь в логе)
+new Image().src='http://31.76.51.14:3100/t?p='+encodeURIComponent(location.pathname+location.hash);
 </script>
 </body>
 </html>

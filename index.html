@@ -128,8 +128,9 @@
   .tool.flash{border-color:var(--green);box-shadow:0 0 0 2px var(--green-soft),0 0 40px -6px rgba(159,232,56,.55)}
   .tool .top{display:flex;align-items:flex-start;gap:11px}
   .tool .ava{flex-shrink:0;width:38px;height:38px;border-radius:10px;display:grid;place-items:center;
-    font-family:var(--disp);font-weight:700;font-size:17px;color:var(--green);
-    background:var(--green-soft);border:1px solid var(--line2);text-transform:uppercase}
+    font-size:19px;line-height:1;
+    background:linear-gradient(135deg, hsl(var(--hue,140) 60% 18%), hsl(calc(var(--hue,140) + 40) 50% 12%));
+    border:1px solid hsl(var(--hue,140) 40% 28% / .5);text-transform:uppercase}
   .tool .hd{flex:1;min-width:0}
   .tool .name{font-weight:600;font-size:16.5px;letter-spacing:-.2px;display:block;
     white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -146,6 +147,10 @@
   .tool .meta .tag.star{color:var(--green-2)}
   .tool .go{margin-top:4px;display:inline-flex;align-items:center;gap:6px;align-self:flex-start;
     color:var(--green);font-weight:600;font-size:13.5px}
+  .tool .go.dl{background:var(--green);color:#06140a;padding:6px 14px;border-radius:8px;font-size:13px;
+    transition:.15s transform,.15s box-shadow;box-shadow:0 4px 14px -4px rgba(159,232,56,.4)}
+  .tool .go.dl:hover{transform:translateY(-1px);box-shadow:0 8px 20px -6px rgba(159,232,56,.6)}
+  .tool .go.sec{font-size:12px;color:var(--muted2);font-weight:500;margin-top:4px}
   .tool:hover .go{gap:9px}
   .empty{color:var(--muted2);padding:54px 0;text-align:center}
 
@@ -237,6 +242,7 @@
 
 <script>
 const esc = s => (s||"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const AVA_ICON = {'github':'🔧','trending':'🔥','hugging face':'📄','hf':'📄','npm':'📦','pypi':'📦','curator':'📡','primary':'🛰','ru':'🇷🇺'};
 function slugify(name){
   return (name||"").trim().toLowerCase()
     .replace(/[\s/]+/g,'-').replace(/[^a-z0-9а-яё-]/g,'')
@@ -275,16 +281,22 @@ function card(t){
   const src = t.source ? (SRC_LABEL[String(t.source).toLowerCase()]||esc(t.source)) : '';
   const me = t.audience==='me' ? `<span class="me">наш инструмент</span>` : '';
   const isNew = NEW_SET.has(slug) ? `<span class="new">NEW</span>` : '';
-  const init = esc((t.name||'?').trim().charAt(0));
+  const ico = AVA_ICON[String(t.source||'').toLowerCase()] || '🔧';
+  const hue = Math.abs([...slug].reduce((h,c)=>((h<<5)-h)+c.charCodeAt(0),0)) % 360;
+  const isGH = /github\.com\/[\w.-]+\/[\w.-]+/.test(t.url||'');
+  const dlUrl = isGH ? t.url.replace(/\/?$/,'/archive/refs/heads/main.zip') : '';
+  const goBtn = dlUrl
+    ? `<span class="go dl" onclick="event.preventDefault();event.stopPropagation();window.open('${esc(dlUrl)}','_blank')">⬇ Скачать zip</span><span class="go sec">Открыть источник →</span>`
+    : `<span class="go">Открыть источник →</span>`;
   return `<a class="tool" id="${slug}" href="${esc(t.url)}" target="_blank" rel="noopener">
     <div class="top">
-      <div class="ava">${init}</div>
+      <div class="ava" style="--hue:${hue}">${ico}</div>
       <div class="hd"><span class="name">${esc(t.name)}</span>${src?`<span class="src">${src}</span>`:''}</div>
       <span class="badges">${isNew}${me}</span>
     </div>
     <div class="desc">${esc(t.desc_ru||'')}</div>
     <div class="meta">${lang}${stars}</div>
-    <span class="go">Открыть источник →</span>
+    ${goBtn}
   </a>`;
 }
 

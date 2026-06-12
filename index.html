@@ -283,10 +283,10 @@ function card(t){
   const isNew = NEW_SET.has(slug) ? `<span class="new">NEW</span>` : '';
   const ico = AVA_ICON[String(t.source||'').toLowerCase()] || '🔧';
   const hue = Math.abs([...slug].reduce((h,c)=>((h<<5)-h)+c.charCodeAt(0),0)) % 360;
-  const isGH = /github\.com\/[\w.-]+\/[\w.-]+/.test(t.url||'');
+  const isGH = /^https:\/\/github\.com\/[\w.-]+\/[\w.-]+\/?$/.test(t.url||'');
   const dlUrl = isGH ? t.url.replace(/\/?$/,'/archive/refs/heads/main.zip') : '';
   const goBtn = dlUrl
-    ? `<span class="go dl" onclick="event.preventDefault();event.stopPropagation();window.open('${esc(dlUrl)}','_blank')">⬇ Скачать zip</span><span class="go sec">Открыть источник →</span>`
+    ? `<a class="go dl" href="${esc(dlUrl)}" download onclick="event.stopPropagation()">⬇ Скачать zip</a><span class="go sec">Открыть источник →</span>`
     : `<span class="go">Открыть источник →</span>`;
   return `<a class="tool" id="${slug}" href="${esc(t.url)}" target="_blank" rel="noopener">
     <div class="top">

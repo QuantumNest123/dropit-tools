@@ -1026,6 +1026,18 @@
       "source": "github",
       "added": "2026-06-11",
       "slug": "chatgpt"
+    },
+    {
+      "name": "2606.12882",
+      "url": "https://huggingface.co/papers/2606.12882",
+      "category": "agents",
+      "desc_ru": "HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "hugging face",
+      "added": "2026-06-12",
+      "slug": "260612882"
     }
   ]
 }

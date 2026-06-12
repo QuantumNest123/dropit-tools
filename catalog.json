@@ -1062,6 +1062,18 @@
       "source": "hugging face",
       "added": "2026-06-12",
       "slug": "260613673"
+    },
+    {
+      "name": "2606.13364",
+      "url": "https://huggingface.co/papers/2606.13364",
+      "category": "other",
+      "desc_ru": "VideoMDM: Towards 3D Human Motion Generation From 2D Supervision",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "hugging face",
+      "added": "2026-06-12",
+      "slug": "260613364"
     }
   ]
 }

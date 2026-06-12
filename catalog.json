@@ -1050,6 +1050,18 @@
       "source": "github",
       "added": "2026-06-12",
       "slug": "supergoal"
+    },
+    {
+      "name": "2606.13673",
+      "url": "https://huggingface.co/papers/2606.13673",
+      "category": "agents",
+      "desc_ru": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "hugging face",
+      "added": "2026-06-12",
+      "slug": "260613673"
     }
   ]
 }

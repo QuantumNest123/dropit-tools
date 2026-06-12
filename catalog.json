@@ -1098,6 +1098,17 @@
       "source": "hugging face",
       "added": "2026-06-12",
       "slug": "260609426"
+    },
+    {
+      "name": "1c_mcp",
+      "url": "https://github.com/vladimir-kharin/1c_mcp",
+      "category": "agents",
+      "desc_ru": "MCP-сервер прямо внутри 1С: даёт ИИ-ассистенту (Claude, Cursor) читать и дёргать данные 1С через стандартный протокол. Открытый, MIT.",
+      "audience": "public",
+      "stars": 428,
+      "lang": "1C Enterprise",
+      "source": "github",
+      "added": "2026-06-12"
     }
   ]
 }

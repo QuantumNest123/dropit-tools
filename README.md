@@ -1,10 +1,10 @@
 # 🟢 Каталог
 
-[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-78-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
+[![Telegram](https://img.shields.io/badge/Telegram-%D0%94%D1%80%D0%BE%D0%BF%20IT-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aidrop_hq) ![Инструментов](https://img.shields.io/badge/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-92-E6FF4B?style=for-the-badge) ![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-555555?style=for-the-badge)
 
 > Инструменты, нейросети и скиллы, о которых рассказываем в канале. Всё проверено и разложено по полочкам.
 >
-> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **78** инструментов · ⭐ — чем пользуемся сами
+> Канал: **[Дроп IT](https://t.me/aidrop_hq)** · в каталоге **92** инструментов · ⭐ — чем пользуемся сами
 
 **Разделы:** [🧠 ИИ для текста и кода](#ии-для-текста-и-кода) · [🎨 ИИ для картинок и видео](#ии-для-картинок-и-видео) · [👥 AI-агенты и автоматизация](#ai-агенты-и-автоматизация) · [🕷 Парсинг и сбор данных](#парсинг-и-сбор-данных) · [🛠 Инструменты разработчика](#инструменты-разработчика) · [✨ Навыки и промпты](#навыки-и-промпты) · [📦 Разное полезное](#разное-полезное)
 
@@ -15,6 +15,7 @@
 - **[ollama](https://github.com/ollama/ollama)** — Запуск нейросетей (Llama, Qwen и др.) локально на своём компе. Бесплатно, без интернета. · `Go` · ★ 173.1k
 - **[skills](https://github.com/mattpocock/skills)** — mattpocock/skills — Skills for Real Engineers. Straight from my .claude directory. · `Shell` · ★ 120.2k
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** — ggml-org/llama.cpp — LLM inference in C/C++ · `C++` · ★ 115.1k
+- **[ChatGPT](https://github.com/lencx/ChatGPT)** — Халява: OpenAI раздает API-кредиты на 5️⃣0️⃣ 0️⃣0️⃣0️⃣ баксов, чтобы свободно юзать все модели ChatGPT. · `Rust` · ★ 54.4k
 - **[career-ops](https://github.com/santifer/career-ops)** — santifer/career-ops — AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. · `JavaScript` · ★ 49k
 - **[Odysseus](https://github.com/pewdiepie-archdaemon/odysseus)** — Self-hosted рабочее пространство с ИИ — разворачиваешь нейросети у себя. · `JavaScript` · ★ 46.1k
 - **[open-notebook](https://github.com/lfnovo/open-notebook)** — Открытая реализация Google NotebookLM — свой ИИ-ноутбук для работы с источниками и заметками. · `TypeScript` · ★ 25.5k
@@ -36,6 +37,8 @@
 - **[Bonsai-Image-Demo](https://github.com/PrismML-Eng/Bonsai-Image-Demo)** ⭐ — Bonsai Image 4B — локальный генератор картинок, влезает на Mac и даже iPhone: 1-bit версия всего 0.93 ГБ (×8 меньше FLUX), Apache-2.0, веса на HF, есть WebGPU-демо. ~95% качества FLUX.2 Klein при копеечном размере. · `PowerShell` · ★ 399
 - **[smart-reframe](https://github.com/gauravzazz/smart-reframe)** ⭐ — Авто-перекадрирование 16:9 → 9:16 с трекингом активного спикера (лицо + звук), плавная «виртуальная камера». Для шортсов из интервью. · `Python` · ★ 150
 - **[OpusClip](https://opus.pro)** — Сам нарезает длинные видео на вирусные вертикальные шортсы с субтитрами. Платный — но похожее мы собираем бесплатно на yt-dlp + whisper + ffmpeg.
+- **[Узнаём промпт для генерации любой картин](https://chromewebstore.google.com/detail/ImageToPrompt/pgabcjhpgdcgbflabemecpficpknnpfn)** — Узнаём промпт для генерации любой картинки — нашли расширение для браузера, которое анализирует изображение и выдаёт зап
+- **[2606.11289](https://huggingface.co/papers/2606.11289)** — i1: A Simple and Fully Open Recipe for Strong Text-to-Image Models
 
 ## 👥 AI-агенты и автоматизация
 
@@ -45,6 +48,7 @@
 - **[learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** — Курс «Bash is all you need»: с нуля собираешь на Python мини-агента в духе Claude Code и разбираешь, как устроен agent harness изнутри — цикл, инструменты, контекст. Лучший способ понять, как работают код-агенты. · `Python` · ★ 64.7k
 - **[claude-flow](https://github.com/ruvnet/ruflo)** ⭐ — claude-flow (ruflo) — мощнейший мета-харнесс для Claude: рои агентов, оркестрация, память. Лидер ниши, десятки тысяч звёзд. · `TypeScript` · ★ 57.8k
 - **[claude-code-router](https://github.com/musistudio/claude-code-router)** ⭐ — Перенаправляет Claude Code на другие модели — дешёвые или локальные. Гибкость и экономия. · `TypeScript` · ★ 34.7k
+- **[numpy](https://github.com/numpy/numpy)** — [Перевод] Claude против краевых случаев: как LLM-агент нашёл баги в NumPy и других Python-библиотеках · `Python` · ★ 32.2k
 - **[claude-code-templates](https://github.com/davila7/claude-code-templates)** — CLI для настройки и мониторинга Claude Code: готовые шаблоны, команды, аналитика. · `Python` · ★ 27.8k
 - **[supermemory](https://github.com/supermemoryai/supermemory)** ⭐ — Движок памяти для ИИ — быстрый слой долговременной памяти и поиска для агентов и приложений. · `TypeScript` · ★ 25.6k
 - **[SuperClaude](https://github.com/SuperClaude-Org/SuperClaude_Framework)** ⭐ — Прокачка Claude Code: спец-команды, роли и режимы под разные задачи. · `Python` · ★ 23.2k
@@ -59,9 +63,15 @@
 - **[Webwright](https://github.com/microsoft/Webwright)** ⭐ — Браузер-агент от Microsoft: ИИ сам ходит по сайтам и выполняет задачи. · `Python` · ★ 5k
 - **[agent-scripts](https://github.com/steipete/agent-scripts)** ⭐ — Личный набор Питера Штайнбергера (создатель OpenClaw) для кодинг-агентов: рабочие инструкции, скиллы и скрипты под Codex/агентов — бустят эффективность и настраивают безопасность, чтобы ИИ не портил файлы. · `JavaScript` · ★ 4.2k
 - **[Agentic Project Management](https://github.com/sdi2200262/agentic-project-management)** — Ведение сложных проектов несколькими ИИ-агентами по чёткой спецификации. · `JavaScript` · ★ 2.3k
+- **[1c_mcp](https://github.com/vladimir-kharin/1c_mcp)** — MCP-сервер прямо внутри 1С: даёт ИИ-ассистенту (Claude, Cursor) читать и дёргать данные 1С через стандартный протокол. Открытый, MIT. · `1C Enterprise` · ★ 428
 - **[application-skills](https://github.com/membranedev/application-skills)** — Забираем больше 3️⃣0️⃣0️⃣0️⃣ навыков для ваших ИИ-агентов, которые учат нейронки работать с конкретными приложениями. Гении собрали ультимативный топ под любые
 - **[FreeQwenApi](https://github.com/ForgetMeAI/FreeQwenApi)** — 🔥 БЕСПЛАТНО ПОДКЛЮЧАЕМ QWEN 3.7 MAX К HERMES AGENT
 - **[Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering)** — Забираем большой сборник из 5️⃣0️⃣+ гайдов по созданию своих ИИ-агентов, RAG-систем, OCR-приложений и голосовых нейронок
+- **[2606.12882](https://huggingface.co/papers/2606.12882)** — HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness
+- **[supergoal](https://github.com/robzilla1738/supergoal)** — ⚡️ Это лучший скилл для Claude Code и Codex — он автоматизирует вообще всю разработку. Supergoal сам генерит план работ, выполняет его и чекает ошибки на лету.
+- **[2606.13673](https://huggingface.co/papers/2606.13673)** — SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning
+- **[2606.13679](https://huggingface.co/papers/2606.13679)** — InterleaveThinker: Reinforcing Agentic Interleaved Generation
+- **[2606.09426](https://huggingface.co/papers/2606.09426)** — WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces
 
 ## 🕷 Парсинг и сбор данных
 
@@ -80,9 +90,11 @@
 - **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** ⭐ — Качалка видео и аудио с YouTube и 1000+ сайтов. База для нарезки чужих роликов на шортсы и для расшифровки. · `Python` · ★ 90k
 - **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** — Мощный OCR: превращает PDF и картинки в структурированные данные. Распознаёт текст, таблицы, формулы. · `Python` · ★ 80.3k
 - **[trivy](https://github.com/aquasecurity/trivy)** — Сканер безопасности: ищет уязвимости, мисконфиги и секреты в коде, образах и инфраструктуре. · `Go` · ★ 35.8k
+- **[container](https://github.com/apple/container)** — apple/container — A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple · `Swift` · ★ 28.3k
 - **[GSAP](https://github.com/greensock/GSAP)** ⭐ — Топовая JS-библиотека анимаций для сайтов: плавный скролл, тайминги, эффекты. · `JavaScript` · ★ 25.4k
 - **[opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)** — Парсер PDF в данные для ИИ: автоматизирует извлечение текста и структуры из документов. · `Java` · ★ 23.8k
 - **[AI Website Cloner](https://github.com/JCodesMore/ai-website-cloner-template)** — Клонирует дизайн любого сайта одной командой через ИИ-агента. · `TypeScript` · ★ 16.2k
+- **[answer](https://github.com/apache/answer)** — Fable won’t answer basic biology questions · `Go` · ★ 15.5k
 - **[liteparse](https://github.com/run-llama/liteparse)** — Быстрый open-source парсер документов от LlamaIndex — готовит данные для RAG и агентов. · `Rust` · ★ 9.2k
 - **[copilot-sdk](https://github.com/github/copilot-sdk)** — Официальный мультиплатформенный SDK для интеграции GitHub Copilot в свои приложения. · `Java` · ★ 9.1k
 - **[open-code-review](https://github.com/alibaba/open-code-review)** — Гибридный инструмент авто-ревью кода от Alibaba, обкатан на их масштабе. · `Go` · ★ 2.1k
@@ -108,6 +120,8 @@
 - **[MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)** — MOSS-TTS — открытое семейство моделей синтеза речи от команды MOSS. · `Python` · ★ 3.1k
 - **[MisoTTS](https://github.com/MisoLabsAI/MisoTTS)** — MisoTTS 8B — эмоциональный синтез речи, клонирует голос за 10 секунд. Есть браузер-демо. · `Python` · ★ 1.7k
 - **[huggingface.co](https://huggingface.co/huihui-ai/Huihui-gemma-4-12B-it-abliterated)** — ⚡️ Новый ХуйХуй РЕЛИЗНУЛСЯ — это самая безбашенная китайская нейронка, которая вообще плевала на цензуру и любые ограничения.
+- **[⚡️ Нейронка-монстр вообще БЕЗ цензуры ре](https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED)** — ⚡️ Нейронка-монстр вообще БЕЗ цензуры релизнулась — гении взяли Gemma 4 от Google и превратила в настоящего злыдня. ИИ п
+- **[2606.13364](https://huggingface.co/papers/2606.13364)** — VideoMDM: Towards 3D Human Motion Generation From 2D Supervision
 
 ---
 

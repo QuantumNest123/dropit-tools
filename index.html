@@ -145,13 +145,16 @@
     color:var(--muted2);font-family:var(--mono)}
   .tool .meta .tag{background:var(--bg2);border:1px solid var(--line);border-radius:7px;padding:2px 8px}
   .tool .meta .tag.star{color:var(--green-2)}
-  .tool .go{margin-top:4px;display:inline-flex;align-items:center;gap:6px;align-self:flex-start;
-    color:var(--green);font-weight:600;font-size:13.5px}
+  .tool .acts{display:flex;align-items:center;gap:10px;margin-top:6px;flex-wrap:wrap}
+  .tool .go{display:inline-flex;align-items:center;gap:5px;
+    color:var(--green);font-weight:600;font-size:13.5px;transition:.15s gap}
   .tool .go.dl{background:var(--green);color:#06140a;padding:6px 14px;border-radius:8px;font-size:13px;
-    transition:.15s transform,.15s box-shadow;box-shadow:0 4px 14px -4px rgba(159,232,56,.4)}
+    font-weight:700;transition:.15s transform,.15s box-shadow;
+    box-shadow:0 4px 14px -4px rgba(159,232,56,.4)}
   .tool .go.dl:hover{transform:translateY(-1px);box-shadow:0 8px 20px -6px rgba(159,232,56,.6)}
-  .tool .go.sec{font-size:12px;color:var(--muted2);font-weight:500;margin-top:4px}
-  .tool:hover .go{gap:9px}
+  .tool .go.sec{font-size:12.5px;color:var(--muted2);font-weight:500}
+  .tool .go.sec:hover{color:var(--green)}
+  .tool:hover .go:not(.dl):not(.sec){gap:9px}
   .empty{color:var(--muted2);padding:54px 0;text-align:center}
 
   footer{border-top:1px solid var(--line);margin-top:46px;padding:34px 0 56px;color:var(--muted2);font-size:13.5px}
@@ -285,10 +288,10 @@ function card(t){
   const hue = Math.abs([...slug].reduce((h,c)=>((h<<5)-h)+c.charCodeAt(0),0)) % 360;
   const isGH = /^https:\/\/github\.com\/[\w.-]+\/[\w.-]+\/?$/.test(t.url||'');
   const dlUrl = isGH ? t.url.replace(/\/?$/,'/archive/refs/heads/main.zip') : '';
-  const goBtn = dlUrl
-    ? `<a class="go dl" href="${esc(dlUrl)}" download onclick="event.stopPropagation()">⬇ Скачать zip</a><span class="go sec">Открыть источник →</span>`
-    : `<span class="go">Открыть источник →</span>`;
-  return `<a class="tool" id="${slug}" href="${esc(t.url)}" target="_blank" rel="noopener">
+  const actions = dlUrl
+    ? `<div class="acts"><a class="go dl" href="${esc(dlUrl)}" download>⬇ Скачать</a><a class="go sec" href="${esc(t.url)}" target="_blank" rel="noopener">Источник →</a></div>`
+    : `<div class="acts"><a class="go" href="${esc(t.url)}" target="_blank" rel="noopener">Открыть источник →</a></div>`;
+  return `<div class="tool" id="${slug}">
     <div class="top">
       <div class="ava" style="--hue:${hue}">${ico}</div>
       <div class="hd"><span class="name">${esc(t.name)}</span>${src?`<span class="src">${src}</span>`:''}</div>
@@ -296,8 +299,8 @@ function card(t){
     </div>
     <div class="desc">${esc(t.desc_ru||'')}</div>
     <div class="meta">${lang}${stars}</div>
-    ${goBtn}
-  </a>`;
+    ${actions}
+  </div>`;
 }
 
 function matches(t,f){ return !f || (t.name+' '+(t.desc_ru||'')+' '+(t.lang||'')+' '+(t.source||'')).toLowerCase().includes(f); }

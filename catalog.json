@@ -1038,6 +1038,18 @@
       "source": "hugging face",
       "added": "2026-06-12",
       "slug": "260612882"
+    },
+    {
+      "name": "supergoal",
+      "url": "https://github.com/robzilla1738/supergoal",
+      "category": "agents",
+      "desc_ru": "⚡️ Это лучший скилл для Claude Code и Codex — он автоматизирует вообще всю разработку. Supergoal сам генерит план работ, выполняет его и чекает ошибки на лету.",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-12",
+      "slug": "supergoal"
     }
   ]
 }

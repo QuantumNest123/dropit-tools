@@ -1074,6 +1074,18 @@
       "source": "hugging face",
       "added": "2026-06-12",
       "slug": "260613364"
+    },
+    {
+      "name": "2606.13679",
+      "url": "https://huggingface.co/papers/2606.13679",
+      "category": "agents",
+      "desc_ru": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "hugging face",
+      "added": "2026-06-12",
+      "slug": "260613679"
     }
   ]
 }

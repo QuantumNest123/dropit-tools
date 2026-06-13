@@ -1121,6 +1121,18 @@
       "source": "hugging face",
       "added": "2026-06-12",
       "slug": "eurekagent"
+    },
+    {
+      "name": "guardrails",
+      "url": "https://github.com/guardrails-ai/guardrails",
+      "category": "agents",
+      "desc_ru": "Как я построил guardrails, которые не дали моему AI-агенту пойти вразнос",
+      "audience": "public",
+      "stars": 6999,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-13",
+      "slug": "guardrails"
     }
   ]
 }

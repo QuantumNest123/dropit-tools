@@ -442,15 +442,16 @@
       "slug": "learn-claude-code"
     },
     {
-      "name": "skills",
+      "name": "Anthropic Skills",
       "url": "https://github.com/anthropics/skills",
       "category": "skills",
-      "desc_ru": "Коллекция скиллов для Claude Code от Matt Pocock — готовые рецепты для разработчиков.",
+      "desc_ru": "Официальные скиллы Anthropic для Claude Code — эталонные рецепты от создателей.",
       "audience": "me",
       "stars": 146791,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "anthropic-skills"
     },
     {
       "name": "superpowers",
@@ -812,7 +813,7 @@
       "slug": "llamacpp"
     },
     {
-      "name": "skills",
+      "name": "Pocock Skills",
       "url": "https://github.com/mattpocock/skills",
       "category": "ai-text",
       "desc_ru": "Коллекция скиллов для Claude Code от Matt Pocock — готовые рецепты для разработчиков.",
@@ -821,7 +822,7 @@
       "lang": "Shell",
       "source": "github",
       "added": "2026-06-07",
-      "slug": "skills"
+      "slug": "pocock-skills"
     },
     {
       "name": "pm-skills",
@@ -944,16 +945,16 @@
       "slug": "ai-youtube-shorts-generator"
     },
     {
-      "name": "⚡️ Нейронка-монстр вообще БЕЗ цензуры ре",
+      "name": "Gemma-4 OBLITERATED",
       "url": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED",
       "category": "other",
-      "desc_ru": "⚡️ Нейронка-монстр вообще БЕЗ цензуры релизнулась — гении взяли Gemma 4 от Google и превратила в настоящего злыдня. ИИ п",
+      "desc_ru": "Gemma 4 12B без цензуры — полностью разблокированная версия для исследований.",
       "audience": "public",
       "stars": 0,
       "lang": "",
       "source": "hugging face",
       "added": "2026-06-10",
-      "slug": "нейронка-монстр-вообще-без-цензуры-ре"
+      "slug": "gemma-4-obliterated"
     },
     {
       "name": "numpy",
@@ -968,16 +969,16 @@
       "slug": "numpy"
     },
     {
-      "name": "Узнаём промпт для генерации любой картин",
+      "name": "ImageToPrompt",
       "url": "https://chromewebstore.google.com/detail/ImageToPrompt/pgabcjhpgdcgbflabemecpficpknnpfn",
       "category": "ai-image",
-      "desc_ru": "Узнаём промпт для генерации любой картинки — нашли расширение для браузера, которое анализирует изображение и выдаёт зап",
+      "desc_ru": "Chrome-расширение: узнаёт промпт для генерации любой картинки из Midjourney/DALL-E.",
       "audience": "public",
       "stars": 0,
       "lang": "",
       "source": "chrome web store",
       "added": "2026-06-10",
-      "slug": "узнаём-промпт-для-генерации-любой-картин"
+      "slug": "imagetoprompt"
     },
     {
       "name": "container",

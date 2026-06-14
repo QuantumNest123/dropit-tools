@@ -1133,6 +1133,18 @@
       "source": "github",
       "added": "2026-06-13",
       "slug": "guardrails"
+    },
+    {
+      "name": "Awesome-AI-OSINT",
+      "url": "https://github.com/ubikron/Awesome-AI-OSINT",
+      "category": "dev-tools",
+      "desc_ru": "Пробиваем ЛЮБОГО человека с помощью банды нейронок — авторы создали репозиторий, который сможет найти информацию о ком угодно за пару секунд.",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-14",
+      "slug": "awesome-ai-osint"
     }
   ]
 }

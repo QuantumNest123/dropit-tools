@@ -1145,6 +1145,18 @@
       "source": "github",
       "added": "2026-06-14",
       "slug": "awesome-ai-osint"
+    },
+    {
+      "name": "locally-uncensored",
+      "url": "https://github.com/PurpleDoubleD/locally-uncensored",
+      "category": "dev-tools",
+      "desc_ru": "Создаем отряд нейронок, которые будут выполнять ВСЕ задачи за вас, управлять компом и при этом работать в локальном, безопасном контуре.",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-14",
+      "slug": "locally-uncensored"
     }
   ]
 }

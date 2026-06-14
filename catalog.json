@@ -1158,6 +1158,18 @@
       "source": "github",
       "added": "2026-06-14",
       "slug": "locally-uncensored"
+    },
+    {
+      "name": "ChatGPT и Claude научили маскироваться п",
+      "url": "https://chromewebstore.google.com/detail/gptdisguise/bccghhjlejbkimijdkdfoboamcjgpefg",
+      "category": "ai-text",
+      "desc_ru": "ChatGPT и Claude научили маскироваться под Google Docs — найдено расширение для самых осторожных студентов.",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "chrome web store",
+      "added": "2026-06-14",
+      "slug": "chatgpt-и-claude-научили-маскироваться-п"
     }
   ]
 }

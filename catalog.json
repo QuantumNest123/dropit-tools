@@ -1182,6 +1182,18 @@
       "source": "github",
       "added": "2026-06-15",
       "slug": "gigachat"
+    },
+    {
+      "name": "ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "category": "agents",
+      "desc_ru": "Избавляем ИИ-агентов от привычки писать слишком много кода — на GitHub завирусился скилл Ponytail, который решает проблему не за 500 строк кода, а за 5.",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-15",
+      "slug": "ponytail"
     }
   ]
 }

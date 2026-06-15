@@ -1170,6 +1170,18 @@
       "source": "chrome web store",
       "added": "2026-06-14",
       "slug": "chatgpt-и-claude-научили-маскироваться-п"
+    },
+    {
+      "name": "gigachat",
+      "url": "https://github.com/ai-forever/gigachat",
+      "category": "agents",
+      "desc_ru": "GigaChat vs Opus в агентском аудите файрвола: попытка сравнения",
+      "audience": "public",
+      "stars": 161,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-15",
+      "slug": "gigachat"
     }
   ]
 }

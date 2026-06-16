@@ -1194,6 +1194,18 @@
       "source": "github",
       "added": "2026-06-15",
       "slug": "ponytail"
+    },
+    {
+      "name": "composer",
+      "url": "https://github.com/composer/composer",
+      "category": "dev-tools",
+      "desc_ru": "«Fix typo»: как в PHP закоммитили бэкдор и почему composer install — это акт доверия",
+      "audience": "public",
+      "stars": 29457,
+      "lang": "PHP",
+      "source": "github",
+      "added": "2026-06-16",
+      "slug": "composer"
     }
   ]
 }

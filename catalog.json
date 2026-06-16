@@ -1206,6 +1206,18 @@
       "source": "github",
       "added": "2026-06-16",
       "slug": "composer"
+    },
+    {
+      "name": "sqlite",
+      "url": "https://github.com/sqlite/sqlite",
+      "category": "ai-text",
+      "desc_ru": "[Перевод] LLM собрала IndexedDB с нуля: 1208 тестов, SQLite и несколько неприятных сюрпризов",
+      "audience": "public",
+      "stars": 9783,
+      "lang": "C",
+      "source": "github",
+      "added": "2026-06-16",
+      "slug": "sqlite"
     }
   ]
 }

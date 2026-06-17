@@ -1218,6 +1218,18 @@
       "source": "github",
       "added": "2026-06-16",
       "slug": "sqlite"
+    },
+    {
+      "name": "protobuf",
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "category": "dev-tools",
+      "desc_ru": "YaFF в опенсорсе: как и зачем мы сделали zero‑copy представление для Protobuf",
+      "audience": "public",
+      "stars": 71359,
+      "lang": "C++",
+      "source": "github",
+      "added": "2026-06-17",
+      "slug": "protobuf"
     }
   ]
 }

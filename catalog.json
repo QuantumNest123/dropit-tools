@@ -1230,6 +1230,18 @@
       "source": "github",
       "added": "2026-06-17",
       "slug": "protobuf"
+    },
+    {
+      "name": "GenCAD",
+      "url": "https://github.com/ferdous-alam/GenCAD",
+      "category": "ai-image",
+      "desc_ru": "Нашли имбу для инженеров. GenCAD — опенсорс-модель от MIT, которая превращает любые картинки в редактируемые CAD-модели.",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-18",
+      "slug": "gencad"
     }
   ]
 }

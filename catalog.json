@@ -1242,6 +1242,18 @@
       "source": "github",
       "added": "2026-06-18",
       "slug": "gencad"
+    },
+    {
+      "name": "ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "category": "skills",
+      "desc_ru": "Дошли руки наконец-то. Собрал все топ скиллы из видосов:",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-19",
+      "slug": "ui-ux-pro-max-skill"
     }
   ]
 }

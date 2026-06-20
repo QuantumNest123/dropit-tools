@@ -1254,6 +1254,18 @@
       "source": "github",
       "added": "2026-06-19",
       "slug": "ui-ux-pro-max-skill"
+    },
+    {
+      "name": "whisper",
+      "url": "https://github.com/openai/whisper",
+      "category": "ai-image",
+      "desc_ru": "Инструмент дня — Whisper: расшифровка речи в текст. Открытая модель от OpenAI, переводит аудио и видео в текст с поддержкой множества языков, включая русский. Р",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-20",
+      "slug": "whisper"
     }
   ]
 }

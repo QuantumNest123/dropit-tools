@@ -1266,6 +1266,18 @@
       "source": "github",
       "added": "2026-06-20",
       "slug": "whisper"
+    },
+    {
+      "name": "open-pencil",
+      "url": "https://github.com/open-pencil/open-pencil",
+      "category": "ai-text",
+      "desc_ru": "Юзаем Claude Design БЕСПЛАТНО — нашли полный аналог хайпового сервиса, который сделает за вас любой дизайн.",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-22",
+      "slug": "open-pencil"
     }
   ]
 }

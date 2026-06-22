@@ -1278,6 +1278,18 @@
       "source": "github",
       "added": "2026-06-22",
       "slug": "open-pencil"
+    },
+    {
+      "name": "youtube-fetcher-to-markdown",
+      "url": "https://github.com/JimmySadek/youtube-fetcher-to-markdown",
+      "category": "ai-image",
+      "desc_ru": "Превращаем YouTube-видео в удобные Markdown-файлы за один клик. Нашли сервис, который сделает даже из длинных роликов те",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-22",
+      "slug": "youtube-fetcher-to-markdown"
     }
   ]
 }

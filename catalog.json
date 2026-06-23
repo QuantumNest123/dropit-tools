@@ -1290,6 +1290,18 @@
       "source": "github",
       "added": "2026-06-22",
       "slug": "youtube-fetcher-to-markdown"
+    },
+    {
+      "name": "vibecoding",
+      "url": "https://github.com/cpjet64/vibecoding",
+      "category": "ai-text",
+      "desc_ru": "Vibe-coding и зависимости: как не дать Claude и Cursor затащить дырявый пакет",
+      "audience": "public",
+      "stars": 367,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-23",
+      "slug": "vibecoding"
     }
   ]
 }

@@ -1314,6 +1314,18 @@
       "source": "github",
       "added": "2026-06-24",
       "slug": "free-certifications"
+    },
+    {
+      "name": "open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "category": "dev-tools",
+      "desc_ru": "Продвигаем любой сайт в поиске за пару кликов — нашли полностью бесплатный сервис OpenSEO, который проведет автоматическ",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-24",
+      "slug": "open-seo"
     }
   ]
 }

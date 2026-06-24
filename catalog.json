@@ -1302,6 +1302,18 @@
       "source": "github",
       "added": "2026-06-23",
       "slug": "vibecoding"
+    },
+    {
+      "name": "Free-Certifications",
+      "url": "https://github.com/ArslanYM/Free-Certifications",
+      "category": "dev-tools",
+      "desc_ru": "Получаем официальные сертификаты от крупнейших ИТ-компаний мира и делаем себе суперпортфолио — гении собрали в одном реп",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-24",
+      "slug": "free-certifications"
     }
   ]
 }

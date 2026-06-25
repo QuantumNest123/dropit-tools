@@ -1580,6 +1580,18 @@
       "source": "hugging face",
       "added": "2026-06-25",
       "slug": "glm-52"
+    },
+    {
+      "name": "pytube-downloader",
+      "url": "https://github.com/thisal-d/pytube-downloader",
+      "category": "ai-image",
+      "desc_ru": "Качаем любые видео с YouTube в 8К целыми плейлистами — нашли мощнейший загрузчик контента на ПК.",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-25",
+      "slug": "pytube-downloader"
     }
   ]
 }

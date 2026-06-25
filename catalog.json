@@ -1568,6 +1568,18 @@
       "source": "web",
       "added": "2026-06-25",
       "slug": "viralbench"
+    },
+    {
+      "name": "GLM-5.2",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "category": "other",
+      "desc_ru": "Вышла GLM 5.2",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "hugging face",
+      "added": "2026-06-25",
+      "slug": "glm-52"
     }
   ]
 }

@@ -462,7 +462,8 @@
       "stars": 218558,
       "lang": "Shell",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "superpowers"
     },
     {
       "name": "claude-code",
@@ -473,7 +474,8 @@
       "stars": 130320,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "claude-code"
     },
     {
       "name": "defending-code-reference-harness",
@@ -484,7 +486,8 @@
       "stars": 1811,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "defending-code-reference-harness"
     },
     {
       "name": "compound-engineering-plugin",
@@ -495,7 +498,8 @@
       "stars": 19848,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "compound-engineering-plugin"
     },
     {
       "name": "ECC",
@@ -506,7 +510,8 @@
       "stars": 207839,
       "lang": "JavaScript",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "ecc"
     },
     {
       "name": "last30days-skill",
@@ -517,7 +522,8 @@
       "stars": 27963,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "last30days-skill"
     },
     {
       "name": "Scrapling",
@@ -528,7 +534,8 @@
       "stars": 61129,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "scrapling"
     },
     {
       "name": "supermemory",
@@ -539,7 +546,8 @@
       "stars": 25621,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "supermemory"
     },
     {
       "name": "MoneyPrinterTurbo",
@@ -550,7 +558,8 @@
       "stars": 79777,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "moneyprinterturbo"
     },
     {
       "name": "PaddleOCR",
@@ -561,7 +570,8 @@
       "stars": 80282,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "paddleocr"
     },
     {
       "name": "trivy",
@@ -572,7 +582,8 @@
       "stars": 35756,
       "lang": "Go",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "trivy"
     },
     {
       "name": "open-notebook",
@@ -583,7 +594,8 @@
       "stars": 25511,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "open-notebook"
     },
     {
       "name": "opendataloader-pdf",
@@ -594,7 +606,8 @@
       "stars": 23756,
       "lang": "Java",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "opendataloader-pdf"
     },
     {
       "name": "liteparse",
@@ -605,7 +618,8 @@
       "stars": 9165,
       "lang": "Rust",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "liteparse"
     },
     {
       "name": "twenty",
@@ -616,7 +630,8 @@
       "stars": 49092,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "twenty"
     },
     {
       "name": "copilot-sdk",
@@ -627,7 +642,8 @@
       "stars": 9113,
       "lang": "Java",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "copilot-sdk"
     },
     {
       "name": "cosmos",
@@ -638,7 +654,8 @@
       "stars": 9254,
       "lang": "Jupyter Notebook",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "cosmos"
     },
     {
       "name": "MisoTTS",
@@ -649,7 +666,8 @@
       "stars": 1700,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "misotts"
     },
     {
       "name": "MOSS-TTS",
@@ -660,7 +678,8 @@
       "stars": 3122,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "moss-tts"
     },
     {
       "name": "Understand-Anything",
@@ -671,7 +690,8 @@
       "stars": 52535,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "understand-anything"
     },
     {
       "name": "hermes-agent",
@@ -682,7 +702,8 @@
       "stars": 191878,
       "lang": "Python",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "hermes-agent"
     },
     {
       "name": "oh-my-pi",
@@ -693,7 +714,8 @@
       "stars": 10654,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "oh-my-pi"
     },
     {
       "name": "open-code-review",
@@ -704,7 +726,8 @@
       "stars": 2144,
       "lang": "Go",
       "source": "github",
-      "added": "2026-06-05"
+      "added": "2026-06-05",
+      "slug": "open-code-review"
     },
     {
       "name": "Agent-Reach",
@@ -775,7 +798,8 @@
       "stars": 11040,
       "lang": "TypeScript",
       "source": "github",
-      "added": "2026-06-07"
+      "added": "2026-06-07",
+      "slug": "reader"
     },
     {
       "name": "FreeDeepseekAPI",
@@ -786,7 +810,8 @@
       "stars": 14,
       "lang": "JavaScript",
       "source": "github",
-      "added": "2026-06-07"
+      "added": "2026-06-07",
+      "slug": "freedeepseekapi"
     },
     {
       "name": "huggingface.co",
@@ -1109,7 +1134,8 @@
       "stars": 428,
       "lang": "1C Enterprise",
       "source": "github",
-      "added": "2026-06-12"
+      "added": "2026-06-12",
+      "slug": "1c-mcp"
     },
     {
       "name": "EurekAgent",
@@ -1326,6 +1352,222 @@
       "source": "github",
       "added": "2026-06-24",
       "slug": "open-seo"
+    },
+    {
+      "name": "Palmier Pro",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "category": "ai-video",
+      "desc_ru": "Видеоредактор с MCP: Claude и Cursor монтируют видео напрямую — таймлайн, эффекты, экспорт в MP4. YC-backed.",
+      "audience": "me",
+      "stars": 8873,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-25",
+      "slug": "palmier-pro"
+    },
+    {
+      "name": "theDAW",
+      "url": "https://github.com/gantasmo/theDAW",
+      "category": "ai-audio",
+      "desc_ru": "Локальная бесплатная AI-студия музыки: генерация из текста, stem separation, MIDI, мультитрек. Альтернатива Suno.",
+      "audience": "me",
+      "stars": 67,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-25",
+      "slug": "thedaw"
+    },
+    {
+      "name": "ElevenLabs Avatars",
+      "url": "https://elevenlabs.io/avatars",
+      "category": "ai-video",
+      "desc_ru": "Говорящие видеоаватары: фото + голос → видео с артикуляцией. Для ведущих шортсов без съёмки.",
+      "audience": "me",
+      "stars": 0,
+      "lang": "-",
+      "source": "web",
+      "added": "2026-06-25",
+      "slug": "elevenlabs-avatars"
+    },
+    {
+      "name": "SnapOtter",
+      "url": "https://github.com/snapotter-hq/SnapOtter",
+      "category": "dev-tools",
+      "desc_ru": "150+ инструментов обработки файлов в одном: фон, апскейл, вектор, PDF, видео — всё локально и бесплатно.",
+      "audience": "me",
+      "stars": 1774,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-25",
+      "slug": "snapotter"
+    },
+    {
+      "name": "FreeKimiAPI",
+      "url": "https://github.com/ForgetMeAI/FreeKimiAPI",
+      "category": "ai-text",
+      "desc_ru": "Бесплатный OpenAI-прокси к Kimi K2.6 без ключа. В пул к FreeQwen и FreeDeepseek.",
+      "audience": "me",
+      "stars": 11,
+      "lang": "JavaScript",
+      "source": "github",
+      "added": "2026-06-25",
+      "slug": "freekimiapi"
+    },
+    {
+      "name": "OpenModel API",
+      "url": "https://docs.openmodel.ai",
+      "category": "ai-text",
+      "desc_ru": "Единый API-хаб к 40+ моделям (Claude, GPT, DeepSeek, Gemini). $1 бесплатно, DeepSeek V4 Flash free.",
+      "audience": "me",
+      "stars": 0,
+      "lang": "-",
+      "source": "web",
+      "added": "2026-06-25",
+      "slug": "openmodel-api"
+    },
+    {
+      "name": "DS Lab API",
+      "url": "https://dslab.tech/model",
+      "category": "ai-text",
+      "desc_ru": "Российский API для 50+ LLM: рубли, без VPN, 152-ФЗ. Альтернатива OpenRouter для РФ.",
+      "audience": "me",
+      "stars": 0,
+      "lang": "-",
+      "source": "web",
+      "added": "2026-06-25",
+      "slug": "dslab-api"
+    },
+    {
+      "name": "GLM-5.2 GGUF",
+      "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
+      "category": "ai-text",
+      "desc_ru": "Квантованная GLM-5.2 (754B, MIT, 1M контекст) для локального запуска. 2-bit влезает на Mac.",
+      "audience": "me",
+      "stars": 0,
+      "lang": "-",
+      "source": "hugging face",
+      "added": "2026-06-25",
+      "slug": "glm-52-gguf"
+    },
+    {
+      "name": "MiMo-V2.5",
+      "url": "https://mimo.mi.com",
+      "category": "ai-text",
+      "desc_ru": "Мультимодальная LLM от Xiaomi: текст/фото/видео/аудио, 1M контекст, в 28× дешевле Opus.",
+      "audience": "me",
+      "stars": 0,
+      "lang": "-",
+      "source": "web",
+      "added": "2026-06-25",
+      "slug": "mimo-v25"
+    },
+    {
+      "name": "Sakana Fugu",
+      "url": "https://sakana.ai/fugu/",
+      "category": "agents",
+      "desc_ru": "LLM-оркестратор: один endpoint авто-роутит задачи к лучшей модели из пула. OpenAI-совместимый.",
+      "audience": "me",
+      "stars": 0,
+      "lang": "-",
+      "source": "web",
+      "added": "2026-06-25",
+      "slug": "sakana-fugu"
+    },
+    {
+      "name": "Loops",
+      "url": "https://loops.elorm.xyz",
+      "category": "agents",
+      "desc_ru": "42 готовых агентных цикла для Claude Code и Cursor: CI, деплой, ревью, дебаг — копируй и используй.",
+      "audience": "me",
+      "stars": 0,
+      "lang": "-",
+      "source": "web",
+      "added": "2026-06-25",
+      "slug": "loops"
+    },
+    {
+      "name": "CCS",
+      "url": "https://github.com/kaitranntt/ccs",
+      "category": "agents",
+      "desc_ru": "Единый прокси с UI для Claude/Gemini/Copilot/OpenRouter (300+ моделей). Переключаешь провайдера без смены кода.",
+      "audience": "me",
+      "stars": 2624,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-25",
+      "slug": "ccs"
+    },
+    {
+      "name": "Lift",
+      "url": "https://github.com/datalab-to/lift",
+      "category": "scraping",
+      "desc_ru": "PDF и фото → структурированный JSON. Open-source, уровень Gemini Flash. Для RAG и автоматизации.",
+      "audience": "me",
+      "stars": 484,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-25",
+      "slug": "lift"
+    },
+    {
+      "name": "Monolith",
+      "url": "https://github.com/Y2Z/monolith",
+      "category": "scraping",
+      "desc_ru": "Сохраняет веб-страницу в один HTML-файл со стилями и картинками. Для архивации и офлайн-парсинга.",
+      "audience": "me",
+      "stars": 15295,
+      "lang": "Rust",
+      "source": "github",
+      "added": "2026-06-25",
+      "slug": "monolith"
+    },
+    {
+      "name": "Ladder",
+      "url": "https://github.com/everywall/ladder",
+      "category": "scraping",
+      "desc_ru": "Self-hosted прокси для обхода пейволов (WSJ, NYT, Bloomberg). Убирает рекламу и трекеры.",
+      "audience": "me",
+      "stars": 8522,
+      "lang": "Go",
+      "source": "github",
+      "added": "2026-06-25",
+      "slug": "ladder"
+    },
+    {
+      "name": "Unlimited-OCR",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "category": "dev-tools",
+      "desc_ru": "OCR от Baidu без ограничений размера: книги, документы, любые форматы. Open-source.",
+      "audience": "me",
+      "stars": 6854,
+      "lang": "Python",
+      "source": "github",
+      "added": "2026-06-25",
+      "slug": "unlimited-ocr"
+    },
+    {
+      "name": "Qwythos-9B",
+      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+      "category": "ai-text",
+      "desc_ru": "9B модель на базе Qwen3.5, дистиллированная из Claude. 1M контекст, без цензуры, Apache 2.0.",
+      "audience": "me",
+      "stars": 0,
+      "lang": "-",
+      "source": "hugging face",
+      "added": "2026-06-25",
+      "slug": "qwythos-9b"
+    },
+    {
+      "name": "ViralBench",
+      "url": "https://www.viralbench.ai",
+      "category": "other",
+      "desc_ru": "Бенчмарк AI-моделей на реальных TikTok-аккаунтах: кто генерит самый вирусный контент. Тренды и аналитика.",
+      "audience": "me",
+      "stars": 0,
+      "lang": "-",
+      "source": "web",
+      "added": "2026-06-25",
+      "slug": "viralbench"
     }
   ]
 }

@@ -406,12 +406,17 @@ function buildCats(){
 function flashHash(){
   const h=decodeURIComponent(location.hash.replace('#',''));
   if(!h) return;
-  // deep-link на конкретный инструмент (#slug) — бот ведёт сюда из постов
   if(CUR_CAT!=="all"||CUR_SORT!=="default"){CUR_CAT="all";CUR_SORT="default";
     document.getElementById('sort').value="default";buildCats();render();}
-  const el=document.getElementById(h);
-  if(el){el.scrollIntoView({block:'center'});el.classList.add('flash');
-    setTimeout(()=>el.classList.remove('flash'),2600);}
+  // retry до 2с — DOM может не успеть отрисоваться на медленных устройствах
+  let tries=0;
+  function attempt(){
+    const el=document.getElementById(h);
+    if(el){el.scrollIntoView({block:'center'});el.classList.add('flash');
+      setTimeout(()=>el.classList.remove('flash'),2600);return;}
+    if(++tries<20) requestAnimationFrame(attempt);
+  }
+  requestAnimationFrame(attempt);
 }
 
 fetch('catalog.json?v='+Date.now()).then(r=>r.json()).then(d=>{
@@ -423,7 +428,7 @@ fetch('catalog.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   document.getElementById('subtitle').textContent = d.subtitle || '';
   if(d.channel){document.getElementById('chan').href=d.channel;}
   buildStats(); buildCats(); render();
-  setTimeout(flashHash,90);
+  flashHash();
 }).catch(e=>{ document.getElementById('list').innerHTML=
   '<div class="empty">Не удалось загрузить каталог. Обнови страницу.</div>'; });
 

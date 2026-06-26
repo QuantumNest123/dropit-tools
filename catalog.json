@@ -1664,6 +1664,18 @@
       "source": "github",
       "added": "2026-06-26",
       "slug": "taste-skill"
+    },
+    {
+      "name": "Zvec",
+      "url": "https://github.com/alibaba/zvec",
+      "category": "dev-tools",
+      "desc_ru": "Встраиваемая векторная БД от Alibaba для приложений",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-26",
+      "slug": "zvec"
     }
   ]
 }

@@ -1594,18 +1594,6 @@
       "slug": "pytube-downloader"
     },
     {
-      "name": "test-connectivity",
-      "url": "https://example.com/test-12345",
-      "category": "dev-tools",
-      "desc_ru": "Тест связи с GitHub API",
-      "audience": "public",
-      "stars": 0,
-      "lang": "",
-      "source": "test",
-      "added": "2026-06-26",
-      "slug": "test-connectivity-12345"
-    },
-    {
       "name": "GPT4Telegrambot",
       "url": "https://t.me/GPT4Telegrambot",
       "category": "ai-image",

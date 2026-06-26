@@ -1688,6 +1688,18 @@
       "source": "github",
       "added": "2026-06-26",
       "slug": "awesome-generative-ai-guide"
+    },
+    {
+      "name": "system-prompts-leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "category": "skills",
+      "desc_ru": "Коллекция системных промптов из реальных AI-продуктов (44k звёзд)",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-26",
+      "slug": "system-prompts-leaks"
     }
   ]
 }

@@ -1640,6 +1640,18 @@
       "source": "github",
       "added": "2026-06-26",
       "slug": "headroom"
+    },
+    {
+      "name": "Pake",
+      "url": "https://github.com/tw93/Pake",
+      "category": "dev-tools",
+      "desc_ru": "Превращает веб-сайт в десктоп-приложение одной командой",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-26",
+      "slug": "pake"
     }
   ]
 }

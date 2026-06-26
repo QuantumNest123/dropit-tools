@@ -1712,6 +1712,18 @@
       "source": "producthunt",
       "added": "2026-06-26",
       "slug": "grass"
+    },
+    {
+      "name": "OpenSEO",
+      "url": "https://openseo.dev",
+      "category": "other",
+      "desc_ru": "Бесплатный SEO-инструмент с AI-интеграцией",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "web",
+      "added": "2026-06-26",
+      "slug": "openseo"
     }
   ]
 }

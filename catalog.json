@@ -1652,6 +1652,18 @@
       "source": "github",
       "added": "2026-06-26",
       "slug": "pake"
+    },
+    {
+      "name": "Taste Skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "category": "ai-text",
+      "desc_ru": "Скилл для Claude: генерация UI-интерфейсов с настоящим вкусом",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-26",
+      "slug": "taste-skill"
     }
   ]
 }

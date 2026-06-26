@@ -1628,6 +1628,18 @@
       "source": "github",
       "added": "2026-06-26",
       "slug": "hyperframes"
+    },
+    {
+      "name": "Headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "category": "ai-text",
+      "desc_ru": "Сжимает контекст перед отправкой в LLM — экономит токены",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-26",
+      "slug": "headroom"
     }
   ]
 }

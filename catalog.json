@@ -1676,6 +1676,18 @@
       "source": "github",
       "added": "2026-06-26",
       "slug": "zvec"
+    },
+    {
+      "name": "awesome-generative-ai-guide",
+      "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+      "category": "agents",
+      "desc_ru": "90+ бесплатных курсов по LLM, RAG и AI-агентам",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-26",
+      "slug": "awesome-generative-ai-guide"
     }
   ]
 }

@@ -1616,6 +1616,18 @@
       "source": "telegram",
       "added": "2026-06-26",
       "slug": "gpt4telegrambot"
+    },
+    {
+      "name": "HyperFrames",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "category": "ai-image",
+      "desc_ru": "Генерация видео из HTML-кода для AI-агентов",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-26",
+      "slug": "hyperframes"
     }
   ]
 }

@@ -1604,6 +1604,18 @@
       "source": "test",
       "added": "2026-06-26",
       "slug": "test-connectivity-12345"
+    },
+    {
+      "name": "GPT4Telegrambot",
+      "url": "https://t.me/GPT4Telegrambot",
+      "category": "ai-image",
+      "desc_ru": "Telegram-бот для создания презентаций в стиле любого сериала по картинке",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "telegram",
+      "added": "2026-06-26",
+      "slug": "gpt4telegrambot"
     }
   ]
 }

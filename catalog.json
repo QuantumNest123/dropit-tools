@@ -1700,6 +1700,18 @@
       "source": "github",
       "added": "2026-06-26",
       "slug": "system-prompts-leaks"
+    },
+    {
+      "name": "Grass",
+      "url": "https://www.producthunt.com/products/grass-claude-code-from-your-phone",
+      "category": "ai-text",
+      "desc_ru": "Облако для запуска Claude Code с телефона без перегрева ноутбука",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "producthunt",
+      "added": "2026-06-26",
+      "slug": "grass"
     }
   ]
 }

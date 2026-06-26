@@ -1724,6 +1724,18 @@
       "source": "web",
       "added": "2026-06-26",
       "slug": "openseo"
+    },
+    {
+      "name": "EchoBird",
+      "url": "https://tproger.ru/articles/echobird-desktopnyj-menedzher-ii-instrumentov-na-rust",
+      "category": "agents",
+      "desc_ru": "Десктопный менеджер локальных AI-агентов на Rust",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "web",
+      "added": "2026-06-26",
+      "slug": "echobird"
     }
   ]
 }

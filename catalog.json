@@ -1736,6 +1736,18 @@
       "source": "github",
       "added": "2026-06-27",
       "slug": "openmontage"
+    },
+    {
+      "name": "Aliens_eye",
+      "url": "https://github.com/arxhr007/Aliens_eye",
+      "category": "dev-tools",
+      "desc_ru": "Пробиваем любых пользователей с маленькой ИИ-армией — нашли сервис Aliens Eye, который найдет всевозможную инфу в соцсетях, на сайтах и других ресурсах, предост",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-28",
+      "slug": "alienseye"
     }
   ]
 }

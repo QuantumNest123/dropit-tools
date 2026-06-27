@@ -1724,6 +1724,18 @@
       "source": "web",
       "added": "2026-06-26",
       "slug": "echobird"
+    },
+    {
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "category": "ai-image",
+      "desc_ru": "⚡️ Настоящая ИИ-студия для видеомонтажа: на ГитХабе вирусится OpenMontage — мощнейший комбайн из ИИ-агентов для полноценного продакшена.",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-27",
+      "slug": "openmontage"
     }
   ]
 }

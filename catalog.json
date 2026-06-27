@@ -1748,6 +1748,18 @@
       "source": "github",
       "added": "2026-06-28",
       "slug": "alienseye"
+    },
+    {
+      "name": "Telegram-Media-Downloader",
+      "url": "https://github.com/Neet-Nestor/Telegram-Media-Downloader",
+      "category": "dev-tools",
+      "desc_ru": "Загружаем любые медиа из Телеграма и даже из закрытых чатов — нашли сервис, который поможет сохранить нужный контент и использовать для обучения или рабочих про",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-28",
+      "slug": "telegram-media-downloader"
     }
   ]
 }

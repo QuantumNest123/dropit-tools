@@ -1772,6 +1772,18 @@
       "source": "github",
       "added": "2026-06-28",
       "slug": "worldmonitor"
+    },
+    {
+      "name": "local-inference-optimizer-skill",
+      "url": "https://github.com/ForgetMeAI/local-inference-optimizer-skill",
+      "category": "agents",
+      "desc_ru": "📛 Собрал небольшой open-source skill для агентов: Local Inference Optimizer",
+      "audience": "public",
+      "stars": 0,
+      "lang": "",
+      "source": "github",
+      "added": "2026-06-28",
+      "slug": "local-inference-optimizer-skill"
     }
   ]
 }

@@ -1760,6 +1760,18 @@
       "source": "github",
       "added": "2026-06-28",
       "slug": "telegram-media-downloader"
+    },
+    {
+      "name": "worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "category": "dev-tools",
+      "desc_ru": "koala73/worldmonitor — Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified s",
+      "audience": "public",
+      "stars": 60605,
+      "lang": "TypeScript",
+      "source": "github",
+      "added": "2026-06-28",
+      "slug": "worldmonitor"
     }
   ]
 }

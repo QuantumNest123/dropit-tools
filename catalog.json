@@ -1784,6 +1784,18 @@
       "source": "github",
       "added": "2026-06-28",
       "slug": "local-inference-optimizer-skill"
+    },
+    {
+      "name": "CodexBar",
+      "url": "https://github.com/steipete/CodexBar",
+      "category": "ai-text",
+      "desc_ru": "steipete/CodexBar — Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "audience": "public",
+      "stars": 15940,
+      "lang": "Swift",
+      "source": "github",
+      "added": "2026-07-05",
+      "slug": "codexbar"
     }
   ]
 }
